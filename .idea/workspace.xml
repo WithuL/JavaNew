@@ -12,15 +12,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_04_24/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            <state relative-caret-position="1368">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_04_24/Leet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,6 +56,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Java_04_24/Test.java" />
+        <option value="$PROJECT_DIR$/src/Java_04_24/Leet.java" />
       </list>
     </option>
   </component>
@@ -51,10 +66,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="367" />
+    <option name="y" value="2" />
+    <option name="width" value="1505" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -73,6 +89,12 @@
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_04_24" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,6 +109,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Images" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,15 +192,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587689497602</updated>
-      <workItem from="1587689500855" duration="2572000" />
+      <workItem from="1587689500855" duration="10266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2572000" />
+    <option name="totallyTimeSpent" value="10266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -190,11 +213,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38722295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17447917" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -222,12 +245,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_04_24/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        <state relative-caret-position="1368">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_04_24/Leet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
