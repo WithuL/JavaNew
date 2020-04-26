@@ -1,5 +1,9 @@
 package Java_04_26;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class LeetCode {
 }
 
@@ -72,4 +76,85 @@ class Solution {
         }
     }
 
+
+    //二叉树的前序遍历
+    class Solution2{
+        public List<Integer> preorderTraversal(TreeNode root) {
+            List<Integer> list = new ArrayList<>();
+            if(root == null) {
+                return list;
+            }
+            Stack<TreeNode> stack = new Stack<>();
+            stack.push(root);
+            while(!stack.empty()) {
+                TreeNode cur = stack.pop();
+                if(cur.right != null) {
+                    stack.push(cur.right);
+                }
+                if(cur.left != null) {
+                    stack.push(cur.left);
+                }
+                list.add(cur.val);
+            }
+            return list;
+        }
+    }
+
+    //二叉树的中序遍历
+    class Solution3 {
+        public List<Integer> inorderTraversal(TreeNode root) {
+            List<Integer> list = new ArrayList<>();
+            if(root == null) {
+                return list;
+            }
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode cur = root;
+            while(true) {
+                while(cur != null) {
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                if(stack.empty()) {
+                    break;
+                }
+                TreeNode top = stack.pop();
+                list.add(top.val);
+                cur = top.right;
+            }
+            return list;
+        }
+    }
+
+    //二叉树的后序遍历
+    class Solution4 {
+        public List<Integer> postorderTraversal(TreeNode root) {
+            List<Integer> list = new ArrayList<>();
+            if(root == null) {
+                return list;
+            }
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode cur = root;
+            TreeNode prev = null;
+            while(true){
+                while(cur != null) {
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                if(stack.empty()) {
+                    break;
+                }
+                TreeNode top = stack.peek();
+                if(top.right == null || prev == top.right) {
+                    list.add(top.val);
+                    stack.pop();
+                    prev = top;
+                }else {
+                    cur = top.right;
+                }
+            }
+            return list;
+        }
+    }
 }
+
+
