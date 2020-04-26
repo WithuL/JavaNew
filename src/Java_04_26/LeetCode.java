@@ -43,5 +43,33 @@ class Solution {
         return -1;
     }
 
-    
+
+    // 根据二叉树创建字符串
+        class Solution1 {
+        StringBuilder str = new StringBuilder();
+        public String tree2str(TreeNode t) {
+            if(t == null) {
+                return "";
+            }
+            help(t);
+            str.deleteCharAt(0);
+            str.deleteCharAt(str.length() - 1);
+            return str.toString();
+        }
+        private void help(TreeNode t) {
+            if(t == null) {
+                return;
+            }
+            str.append("(");
+            str.append(t.val);
+            help(t.left);
+            if(t.left == null && t.right != null) {
+                str.append("()");
+            }
+            help(t.right);
+            str.append(")");
+
+        }
+    }
+
 }
