@@ -1,4 +1,4 @@
-package Java_04_24;
+package Java_0424;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

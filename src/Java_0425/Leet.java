@@ -1,4 +1,4 @@
-package Java_04_25;
+package Java_0425;
 
 public class Leet {
 

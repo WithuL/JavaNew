@@ -1,4 +1,4 @@
-package Java_04_27;
+package Java_0427;
 
 public class LeetCode {
     class Solution1 {
