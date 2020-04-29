@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="" />
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Java_0429/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0429/LeetCode.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -286,12 +288,12 @@
       <workItem from="1587904121229" duration="6509000" />
       <workItem from="1587976855253" duration="1451000" />
       <workItem from="1588045864900" duration="8360000" />
-      <workItem from="1588126812909" duration="9686000" />
+      <workItem from="1588126812909" duration="12543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47612000" />
+    <option name="totallyTimeSpent" value="50469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -584,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="209">
+          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
         </state>
       </provider>
     </entry>

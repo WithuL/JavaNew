@@ -43,4 +43,71 @@ public class LeetCode {
         board[i][j] = tmp;
         return ret;
     }
+
+
+    //机器人的运动范围
+    class Solution {
+        //创建成员变量用以记数（记录可以到达的点的个数）
+        int count;
+        //主程序，只执行一次
+        public int movingCount(int m, int n, int k) {
+            count = 0;
+            //mark用来记录
+            int[][] mark = new int[m][n];
+            helper(0,0,m,n,k,mark);
+            return count;
+        }
+        public void  helper(int i, int j, int m, int n, int k, int[][] mark) {
+            if(i < m && j < n &&
+                    i >= 0 && j >= 0 &&
+                    mark[i][j] != 1 &&
+                    (sum(i) + sum(j) <= k )) {
+                count++;
+                mark[i][j] = 1;
+                helper(i+1,j,m,n,k,mark);
+                helper(i,j+1,m,n,k,mark);
+                helper(i-1,j,m,n,k,mark);
+                helper(i,j-1,m,n,k,mark);
+            }
+        }
+        public int sum(int i ) {
+            int sum = 0;
+            while(i != 0) {
+                sum += i % 10;
+                i /= 10;
+            }
+            return sum;
+        }
+    }
+
+
+    //剪绳子
+
+    //这道题比较抽象，这里的解法是要立足于两个推论的：
+    //1.一根绳子要被拆剪断并得到最大乘积，那么以相等长度等分为多段，得到的乘积最大
+    //2.尽可能将绳子以长度为3等分为多段时，得到的乘积最大
+    //注意：有特例！
+    //长度为 2 和 3 时不应切分，因为得到的乘积是 n-1;
+    //长度为 4 时 (2 + 2) 比 ( 1 + 3) 更优、5 时 应切分为 (2 + 3), 6 以上就应以3为长度进行分配
+    class Solution2 {
+        public int cuttingRope(int n) {
+            //判断是否小于等于3
+            if(n <= 3) {
+                return n-1;
+            }
+            //看看 n 是多少个3相乘得到的
+            int a = n / 3;
+            //看看多余部分是多少
+            int b = n % 3;
+            if(b == 0) {
+                return (int)Math.pow(3,a);
+            }
+            //如果多 1 直接少乘一个 3 ，将 3 + 1 变成 4 与前面的相乘
+            if(b == 1) {
+                return (int)Math.pow(3,a-1) * 4;
+            }
+            //如果多2 直接在末尾成个 2
+            return (int)Math.pow(3,a) * 2;
+        }
+    }
 }
