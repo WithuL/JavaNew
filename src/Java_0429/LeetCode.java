@@ -1,5 +1,7 @@
 package Java_0429;
 
+
+
 public class LeetCode {
     //矩阵中的路径
     public boolean exist(char[][] board, String word) {
@@ -102,12 +104,98 @@ public class LeetCode {
             if(b == 0) {
                 return (int)Math.pow(3,a);
             }
-            //如果多 1 直接少乘一个 3 ，将 3 + 1 变成 4 与前面的相乘
+            //如果多 1 直接少乘一个 3 ，将 3 + 1 变成 4 与前面的相乘  （*4比*3*1）优
             if(b == 1) {
                 return (int)Math.pow(3,a-1) * 4;
             }
             //如果多2 直接在末尾成个 2
             return (int)Math.pow(3,a) * 2;
+        }
+    }
+
+
+    //剪绳子2 进阶版  循环求余
+    class Solution3 {
+        public int cuttingRope(int n) {
+            if(n <= 3) {
+                return n-1;
+            }
+            //题目要求要取余
+            int p = 1000000007;
+            //设置一个长整型用来暂时保存结果
+            long res = 1;
+            //求 a ^ 3 的结果，相当于求 a^1 = a*1 , a^2 = a^1 * a , a^3 = a^2 * a;同时取余避免超出数据范围。
+            while(n > 4) {
+                res = res * 3 % p;
+                n -= 3;
+            }
+            //此时n可以取2、3、4
+            return (int)(res * n % p);
+        }
+    }
+
+    //合并两个排序的链表
+
+    class Solution4 {
+        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+            ListNode head = new ListNode(-1);
+            ListNode cur = head;
+            while(l1 != null && l2 != null) {
+                if(l1.val < l2.val) {
+                    cur.next = l1;
+                    l1 = l1.next;
+                }else{
+                    cur.next = l2;
+                    l2 = l2.next;
+                }
+                cur = cur.next;
+            }
+            cur.next = l1 == null ? l2 : l1;
+            return head.next;
+        }
+    }
+
+    //对称的二叉树
+    class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+}
+    class Solution5 {
+        public boolean isSymmetric(TreeNode root) {
+            return isSymmetricHelper(root,root);
+        }
+        public boolean isSymmetricHelper(TreeNode root1,TreeNode root2) {
+            if(root1 == null && root2 == null) {
+                return true;
+            }
+            if(root1 == null || root2 == null) {
+                return false;
+            }
+            return root1.val == root2.val &&
+                    isSymmetricHelper(root1.left, root2.right) &&
+                    isSymmetricHelper(root1.right, root2.left);
+        }
+    }
+
+    //树的子结构
+
+    class Solution6 {
+        public boolean isSubStructure(TreeNode A, TreeNode B) {
+            return (A != null && B != null) && (
+                    help(A,B) ||
+                            isSubStructure(A.left,B) ||
+                            isSubStructure(A.right,B));
+        }
+        public boolean help(TreeNode A,TreeNode B) {
+            if(B == null) {
+                return true;
+            }
+            if(A == null) {
+                return false;
+            }
+            return (A.val == B.val) && help(A.left,B.left) && help(A.right,B.right);
         }
     }
 }

@@ -68,8 +68,21 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="198" column="9" lean-forward="true" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
+              <folding>
+                <element signature="e#4673#4674#0" expanded="true" />
+                <element signature="e#4732#4733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java_0429/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/Java_0429/Test.java" />
         <option value="$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMax.java" />
         <option value="$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMin.java" />
+        <option value="$PROJECT_DIR$/src/Java_0429/ListNode.java" />
         <option value="$PROJECT_DIR$/src/Java_0429/LeetCode.java" />
       </list>
     </option>
@@ -169,6 +183,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Java_0429" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="Java_0429" />
     </key>
   </component>
@@ -288,12 +305,12 @@
       <workItem from="1587904121229" duration="6509000" />
       <workItem from="1587976855253" duration="1451000" />
       <workItem from="1588045864900" duration="8360000" />
-      <workItem from="1588126812909" duration="12543000" />
+      <workItem from="1588126812909" duration="15851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50469000" />
+    <option name="totallyTimeSpent" value="53777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -584,10 +601,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0429/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
+        <state relative-caret-position="459">
+          <caret line="198" column="9" lean-forward="true" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
+          <folding>
+            <element signature="e#4673#4674#0" expanded="true" />
+            <element signature="e#4732#4733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
