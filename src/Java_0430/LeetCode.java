@@ -114,7 +114,57 @@ public class LeetCode {
             return ' ';
         }
     }
+    //二叉树的深度
+    class Solution {
+        public int maxDepth(TreeNode root) {
+            if(root == null) {
+                return 0;
+            }
+            return Math.max(maxDepth(root.left) , maxDepth(root.right)) + 1;
+        }
+    }
 
+    //顺时针打印矩阵
+    static class Solution6 {
+        public static int[] spiralOrder(int[][] matrix) {
+            if(matrix.length == 0) {
+                return new int[0];
+            }
+            int[] ret = new int[matrix.length * matrix[0].length];
+            int left = 0;
+            int right =  matrix[0].length-1;
+            int top = 0;
+            int bottom = matrix.length - 1;
+            int cur = 0;
+            while(cur < ret.length) {
+                for(int i = top, j = left; j <= right ; j++) {
+                    ret[cur++] = matrix[i][j];
+                }
+                if(++top > bottom) {
+                    return ret;
+                }
+                for(int i = top,j = right; i <= bottom; i++) {
+                    ret[cur++] = matrix[i][j];
+                }
+                if(--right < left) {
+                    return ret;
+                }
+                for(int i = bottom,j = right; j >= left; j--) {
+                    ret[cur++] = matrix[i][j];
+                }
+                if(--bottom < top ) {
+                    return ret;
+                }
+                for(int i = bottom,j = left; i >= top; i--) {
+                    ret[cur++] = matrix[i][j];
+                }
+                if(++left > right ) {
+                    return ret;
+                }
+            }
+            return ret;
+        }
+    }
 
 }
 
