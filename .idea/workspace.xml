@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$Solution6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/LeetCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0429/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$Solution5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/LeetCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0430/MyPriorityQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0430/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0430/LeetCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +36,8 @@
       <file leaf-file-name="MyPriorityQueueMax.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="85" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="1615">
+              <caret line="85" column="5" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -27,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/Java_0430/MyPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1748">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -35,8 +54,8 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_0430/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="-76">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -44,7 +63,7 @@
       <file leaf-file-name="MyPriorityQueueMin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="76">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
@@ -53,8 +72,8 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="162" column="34" lean-forward="true" selection-start-line="158" selection-start-column="4" selection-end-line="162" selection-end-column="34" />
+            <state relative-caret-position="3078">
+              <caret line="162" column="34" selection-start-line="158" selection-start-column="4" selection-end-line="162" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -114,8 +133,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +202,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyPriorityQueueMin">
+  <component name="RunManager" selected="Application.LeetCode">
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0430.LeetCode" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0430.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MyPriorityQueueMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0429.MyPriorityQueueMax" />
       <module name="JavaNew" />
@@ -262,9 +292,11 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.MyPriorityQueueMax" />
       <item itemvalue="Application.MyPriorityQueueMin" />
+      <item itemvalue="Application.LeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.MyPriorityQueueMin" />
         <item itemvalue="Application.MyPriorityQueueMax" />
         <item itemvalue="Application.Test" />
@@ -288,19 +320,20 @@
       <workItem from="1587976855253" duration="1451000" />
       <workItem from="1588045864900" duration="8360000" />
       <workItem from="1588126812909" duration="16257000" />
-      <workItem from="1588204640800" duration="6255000" />
+      <workItem from="1588204640800" duration="12278000" />
+      <workItem from="1588255265841" duration="3118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60438000" />
+    <option name="totallyTimeSpent" value="69579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -308,12 +341,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22054794" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17447917" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,12 +353,12 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +367,47 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="5" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0430/MyPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="162" column="34" lean-forward="true" selection-start-line="158" selection-start-column="4" selection-end-line="162" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0430/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0428/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2451">
@@ -618,36 +690,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="1615">
+          <caret line="85" column="5" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0430/MyPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1748">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="162" column="34" lean-forward="true" selection-start-line="158" selection-start-column="4" selection-end-line="162" selection-end-column="34" />
+        <state relative-caret-position="3078">
+          <caret line="162" column="34" selection-start-line="158" selection-start-column="4" selection-end-line="162" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0430/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="-76">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
