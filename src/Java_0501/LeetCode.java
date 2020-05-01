@@ -1,4 +1,6 @@
 package Java_0501;
+import Java_0425.Leet;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -94,42 +96,101 @@ public class LeetCode {
         public Node left;
         public Node right;
 
-        public Node() {}
+        public Node() {
+        }
 
         public Node(int _val) {
             val = _val;
         }
+    }
 
-        class Solution {
-            List<Node> node = new ArrayList<>();
-            public Node treeToDoublyList(Node root) {
-                if(root == null) {
-                    return null;
-                }
-                inorder(root);
-                Node pre = null;
-                Node last = null;
-                for(int i = 0; i < node.size(); i++) {
-                    if(i == node.size() - 1) {
-                        last = null;
-                    }else{
-                        last = node.get(i+1);
-                    }
-                    node.get(i).right = last;
-                    node.get(i).left = pre;
-                    pre = node.get(i);
-                }
-                node.get(0).left = node.get(node.size()-1);
-                node.get(node.size()-1).right = node.get(0);
-                return node.get(0);
+    class Solution6 {
+        List<Node> node = new ArrayList<>();
+
+        public Node treeToDoublyList(Node root) {
+            if (root == null) {
+                return null;
             }
-            public void inorder(Node root){
-                if(root == null) {
-                    return;
+            inorder(root);
+            Node pre = null;
+            Node last = null;
+            for (int i = 0; i < node.size(); i++) {
+                if (i == node.size() - 1) {
+                    last = null;
+                } else {
+                    last = node.get(i + 1);
                 }
-                inorder(root.left);
-                node.add(root);
-                inorder(root.right);
+                node.get(i).right = last;
+                node.get(i).left = pre;
+                pre = node.get(i);
             }
+            node.get(0).left = node.get(node.size() - 1);
+            node.get(node.size() - 1).right = node.get(0);
+            return node.get(0);
         }
+
+        public void inorder(Node root) {
+            if (root == null) {
+                return;
+            }
+            inorder(root.left);
+            node.add(root);
+            inorder(root.right);
+        }
+    }
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     */
+    //二叉树的最近公共祖先
+    class Solution4 {
+        TreeNode lca;
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            if(root == null) {
+                return null;
+            }
+            help(root,p,q);
+            return lca;
+        }
+        private boolean help(TreeNode root, TreeNode p, TreeNode q) {
+            if(root == null) {
+                return false;
+            }
+            int left = help(root.left , p , q) ? 1 : 0;
+            int right = help(root.right , p , q) ? 1 : 0;
+            int mid = (root == p || root == q) ? 1 : 0;
+            if(left + right + mid == 2) {
+                lca = root;
+            }
+            return (left + right + mid > 0);
+        }
+    }
+
+    //二叉搜索树的最近公共祖先
+
+    //二叉搜索树的第k大节点
+    class Solution5 {
+        ArrayList<Integer> ret = new ArrayList<>();
+        public int kthLargest(TreeNode root, int k) {
+            if(root == null) {
+                return 0;
+            }
+            inorder(root);
+            return ret.get(ret.size()- k);
+        }
+        private void inorder(TreeNode root) {
+            if(root == null) {
+                return;
+            }
+            inorder(root.left);
+            ret.add(root.val);
+            inorder(root.right);
+        }
+    }
 }
