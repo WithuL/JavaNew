@@ -1,4 +1,5 @@
 package Java_0501;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -85,4 +86,50 @@ public class LeetCode {
             path.removeLast();
         }
     }
+
+
+    //二叉搜索树与双向链表
+    static class Node {
+        public int val;
+        public Node left;
+        public Node right;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        class Solution {
+            List<Node> node = new ArrayList<>();
+            public Node treeToDoublyList(Node root) {
+                if(root == null) {
+                    return null;
+                }
+                inorder(root);
+                Node pre = null;
+                Node last = null;
+                for(int i = 0; i < node.size(); i++) {
+                    if(i == node.size() - 1) {
+                        last = null;
+                    }else{
+                        last = node.get(i+1);
+                    }
+                    node.get(i).right = last;
+                    node.get(i).left = pre;
+                    pre = node.get(i);
+                }
+                node.get(0).left = node.get(node.size()-1);
+                node.get(node.size()-1).right = node.get(0);
+                return node.get(0);
+            }
+            public void inorder(Node root){
+                if(root == null) {
+                    return;
+                }
+                inorder(root.left);
+                node.add(root);
+                inorder(root.right);
+            }
+        }
 }
