@@ -99,4 +99,56 @@ public class LeetCode {
         }
     }
 
+    //两个链表的第一个公共节点
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if(headA == null || headB == null) {
+            return null;
+        }
+        int countA = 0;
+        int countB = 0;
+        ListNode curA = headA;
+        ListNode curB = headB;
+        while(curA != null) {
+            countA++;
+            curA = curA.next;
+        }
+        while(curB != null) {
+            countB++;
+            curB = curB.next;
+        }
+        curA = headA;
+        curB = headB;
+        if(countA > countB) {
+            int sub = countA - countB;
+            while(sub > 0){
+                sub--;
+                curA = curA.next;
+            }
+        }else{
+            int sub = countB - countA;
+            while(sub > 0) {
+                sub--;
+                curB = curB.next;
+            }
+        }
+        while(curA != null) {
+            if(curA == curB) {
+                return curA;
+            }
+            curA = curA.next;
+            curB = curB.next;
+        }
+        return curA;
+    }
+
+    //圆圈中最后剩下的数字
+    class Solution5 {
+        public int lastRemaining(int n, int m) {
+            int res = 0;
+            for(int i = 2; i <= n; i++) {
+                res = (res + m) % i;
+            }
+            return res;
+        }
+    }
 }
