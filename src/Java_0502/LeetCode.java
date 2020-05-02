@@ -1,5 +1,6 @@
 package Java_0502;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -149,6 +150,26 @@ public class LeetCode {
                 res = (res + m) % i;
             }
             return res;
+        }
+    }
+
+    //数组中数字出现的次数 II
+    class Solution6 {
+        public int singleNumber(int[] nums) {
+            HashMap<Integer,Boolean> map = new HashMap<>();
+            for(int x : nums) {
+                if(map.containsKey(x)) {
+                    map.put(x,false);
+                }else{
+                    map.put(x,true);
+                }
+            }
+            for(int x : nums) {
+                if(map.get(x) == true) {
+                    return x;
+                }
+            }
+            return 0;
         }
     }
 }
