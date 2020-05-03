@@ -55,4 +55,33 @@ public class LeetCode {
             return res.toArray(new int[res.size()][]);
         }
     }
+    //反转单词的顺序
+    class Solution3 {
+        public String reverseWords(String s) {
+            s = s.trim();
+            int i = s.length() - 1;
+            int j = i;
+            StringBuilder res = new StringBuilder();
+            while(i >= 0) {
+                while(i >= 0 && s.charAt(i) != ' ') {
+                    i--;
+                }
+                res.append(s.substring(i+1,j+1) + " ");//左闭右开
+                while(i >= 0 && s.charAt(i) == ' ') {
+                    i--;
+                }
+                j = i;
+            }
+            return res.toString().trim();
+        }
+    }
+    //左旋字符串
+    class Solution4 {
+        public String reverseLeftWords(String s, int n) {
+            StringBuilder res = new StringBuilder();
+            res.append(s.substring(n,s.length()));
+            res.append(s.substring(0,n));
+            return res.toString();
+        }
+    }
 }
