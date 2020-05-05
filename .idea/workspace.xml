@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="" />
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0425/Leet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0425/Leet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0504.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +31,7 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0503/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="1368">
               <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/Java_0426/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="17" column="3" lean-forward="true" selection-end-line="160" />
+              <caret line="17" column="3" selection-end-line="160" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Java_0504.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Java_0504.java">
+      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_0505/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2660">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="494">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java_0425/Leet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" lean-forward="true" selection-start-line="12" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -144,6 +157,8 @@
         <option value="$PROJECT_DIR$/src/Java_0502/LeetCode.java" />
         <option value="$PROJECT_DIR$/src/Java_0503/LeetCode.java" />
         <option value="$PROJECT_DIR$/src/Java_0504.java" />
+        <option value="$PROJECT_DIR$/src/Java_0503/Java_0504.java" />
+        <option value="$PROJECT_DIR$/src/Java_0505/LeetCode.java" />
       </list>
     </option>
   </component>
@@ -166,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,6 +194,19 @@
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_0425" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_0425" type="462c0819:PsiDirectoryNode" />
+              <item name="Leet.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -196,19 +225,7 @@
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0501" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0502" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0503" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_0505" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +235,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -391,12 +407,13 @@
       <workItem from="1588325970610" duration="6029000" />
       <workItem from="1588385018472" duration="5901000" />
       <workItem from="1588464513670" duration="4862000" />
-      <workItem from="1588602631068" duration="126000" />
+      <workItem from="1588602631068" duration="215000" />
+      <workItem from="1588690620648" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86590000" />
+    <option name="totallyTimeSpent" value="86968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -444,16 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java_0428/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0427/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -661,13 +668,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode.java" />
     <entry file="file://$PROJECT_DIR$/src/Java_04_28.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java_0425/Leet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0426/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -814,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0503/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="1368">
           <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -822,20 +822,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0425/Leet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" lean-forward="true" selection-start-line="12" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0503/Java_0504.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0426/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="17" column="3" lean-forward="true" selection-end-line="160" />
+          <caret line="17" column="3" selection-end-line="160" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0504.java">
+    <entry file="file://$PROJECT_DIR$/src/Java_0505/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2660">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="494">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
