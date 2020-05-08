@@ -1,7 +1,5 @@
 package Java_0505;
 
-import Java_0425.TreeNode;
-
 public class LeetCode {
     //二叉树的最近公共祖先
     class Solution {

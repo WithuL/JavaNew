@@ -3,7 +3,7 @@ package Java_0425;
 public class Leet {
 
 }
-public class TreeNode {
+ class TreeNode {
     int val;
     public TreeNode left;
     public TreeNode right;
