@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0508/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0508/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0509/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0509/LeetCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +35,8 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1019">
+              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -322,12 +318,12 @@
       <workItem from="1588755502512" duration="753000" />
       <workItem from="1588811370858" duration="8294000" />
       <workItem from="1588893433734" duration="17652000" />
-      <workItem from="1588979822780" duration="5261000" />
+      <workItem from="1588979822780" duration="8329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118928000" />
+    <option name="totallyTimeSpent" value="121996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -718,11 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1019">
+          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,5 @@
 package Java_0509;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class LeetCode {
 //滑动窗口的最大值
@@ -64,38 +62,108 @@ public class LeetCode {
     }
 
 //    队列的最大值
-class MaxQueue {
-//        要每次都能找到队列的最大值
-//    就需要使用辅助双端队列进行维护
-    Queue<Integer> que = new LinkedList<>();
-    Deque<Integer> deq = new LinkedList<>();
-    public MaxQueue() {
+    class MaxQueue {
+    //        要每次都能找到队列的最大值
+    //    就需要使用辅助双端队列进行维护
+        Queue<Integer> que = new LinkedList<>();
+        Deque<Integer> deq = new LinkedList<>();
+        public MaxQueue() {
+        }
+
+        public int max_value() {
+    //        如果队列不为空的话就返回双端队列的对手元素
+            return deq.size() > 0 ? deq.peekFirst() : -1;
+        }
+        public void push_back(int value) {
+    //    每次入队列的时候先直接将value入到队列中
+            que.offer(value);
+    //        但是双端队列中为了保持双端队列的降序规则则要删除所有小于新插元素的数据
+            while(deq.size() > 0 && deq.peekLast() < value) {
+                deq.removeLast();
+            }
+    //        最后将新元素入到双端队列尾部
+            deq.addLast(value);
+        }
+    //弹出对手元素
+        public int pop_front() {
+    //        先记录队首元素
+            int tmp = que.size() > 0 ? que.poll() : -1;
+    //      如果要删除的队首元素是队列的最大值，则双端队列也要删除队首元素
+            if(deq.size() > 0 && tmp == deq.peekFirst()) {
+                deq.removeFirst();
+            }
+            return tmp;
+        }
     }
 
-    public int max_value() {
-//        如果队列不为空的话就返回双端队列的对手元素
-        return deq.size() > 0 ? deq.peekFirst() : -1;
-    }
-    public void push_back(int value) {
-//    每次入队列的时候先直接将value入到队列中
-        que.offer(value);
-//        但是双端队列中为了保持双端队列的降序规则则要删除所有小于新插元素的数据
-        while(deq.size() > 0 && deq.peekLast() < value) {
-            deq.removeLast();
+//    扑克牌中的顺子
+    class Solution {
+//        要想让一副牌是顺子
+//    那么在这个题中的隐藏要求是
+//    这副牌最大的点数减去最小的点数差值不能超过4
+//    并且不能有重复的牌
+//    满足这两个条件就是顺子
+        public boolean isStraight(int[] nums) {
+//            使用集合确保不会出现重复的牌
+            Set<Integer> repeat = new HashSet<>();
+//            初始最大的点数为0，因为真实情况所有的牌都比0大
+//            最小的点数默认为14，因为真实情况所有的牌逗比14小
+            int min = 14, max = 0;
+            for(int x : nums) {
+//                如果遇到大王小王就跳过
+                if(x == 0) {
+                    continue;
+                }
+                min = Math.min(min,x);
+                max = Math.max(max,x);
+//                如果有重复的牌就直接返回false
+                if(repeat.contains(x)){
+                    return false;
+                }else{
+                    repeat.add(x);
+                }
+            }
+//            最后看看最大牌-最小牌相差是否小于5
+            return max - min < 5;
         }
-//        最后将新元素入到双端队列尾部
-        deq.addLast(value);
     }
-//弹出对手元素
-    public int pop_front() {
-//        先记录队首元素
-        int tmp = que.size() > 0 ? que.poll() : -1;
-//      如果要删除的队首元素是队列的最大值，则双端队列也要删除队首元素
-        if(deq.size() > 0 && tmp == deq.peekFirst()) {
-            deq.removeFirst();
+//    面试题63. 股票的最大利润
+    class Solution2 {
+        public int maxProfit(int[] prices) {
+//            天数过小无法完成交易
+            if(prices.length < 2) {
+                return 0;
+            }
+//            用两个状态表示盈利和亏损，盈利可以看成净赚的，亏损可以看成成本
+//            那么第一天没有盈利  所以为0，第一天如果买入那么成本就为 prices[0]
+            int ying = 0, kui = -prices[0];
+            for(int i = 1; i < prices.length; i++) {
+//                那么每次盈利的大小是看上一次交易完成的盈利更多
+//                还是说之前最小的成本加上这次卖入的价格最大
+                ying = Math.max(ying,kui + prices[i]);
+//                那么最少的成本就看是上次的成本更少还是这次买入的成本更少。
+                kui = Math.max(kui,-prices[i]);
+            }
+            return ying;
         }
-        return tmp;
     }
 }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
