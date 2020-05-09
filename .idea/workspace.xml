@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0425/Leet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0425/Leet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0505/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0505/LeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0507/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0507/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0508/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0508/Sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,108 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0507/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="150" column="34" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0508/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
-              <folding>
-                <element signature="e#3073#3074#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0505/LeetCode.java">
+      <file leaf-file-name="SortTwice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java_0508/SortTwice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="342">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0424/Leet.java">
+      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="114">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0424/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0425/Leet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0426/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="3" selection-end-line="160" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0501/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0505/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0507/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -171,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/Java_0505/LeetCode.java" />
         <option value="$PROJECT_DIR$/src/Java_0505/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Java_0508/Sort.java" />
+        <option value="$PROJECT_DIR$/src/Java_0508/SortTwice.java" />
+        <option value="$PROJECT_DIR$/src/Java_0509/LeetCode.java" />
       </list>
     </option>
   </component>
@@ -193,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,61 +133,7 @@
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0424" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0425" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0426" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0427" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0428" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0429" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0430" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0501" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0505" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0508" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_0509" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
@@ -275,6 +143,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -451,12 +321,13 @@
       <workItem from="1588690620648" duration="289000" />
       <workItem from="1588755502512" duration="753000" />
       <workItem from="1588811370858" duration="8294000" />
-      <workItem from="1588893433734" duration="9367000" />
+      <workItem from="1588893433734" duration="17652000" />
+      <workItem from="1588979822780" duration="5261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105382000" />
+    <option name="totallyTimeSpent" value="118928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -464,7 +335,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -472,11 +342,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22054794" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104166664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10546875" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,6 +360,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,24 +375,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java_0428/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="33" lean-forward="true" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0429/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/Java_0424/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,9 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,13 +524,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0430/MyPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -791,17 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0507/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -809,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="150" column="34" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,13 +688,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0507/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0430/MyPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0508/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="532">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0508/SortTwice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
