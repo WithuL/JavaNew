@@ -147,6 +147,30 @@ public class LeetCode {
             return ying;
         }
     }
+//    面试题64. 求1+2+…+n
+    class Solution3 {
+        public int sumNums(int n) {
+//            使用tmp只是为了创造递归的条件
+//            此处利用逻辑运算符的短路效应
+//            如果n>1的话那么右边的表达式将不会被执行
+//            右边的表达式就进行了类似 return n + sumNums( n - 1)的效果
+//            也就是右边执行的操作是求n个和，最终不满足条件是向上返回
+//            最终返回我们需要的值
+            boolean tmp = n > 1 && (n = n+sumNums(n-1)) > 1;
+            return n;
+        }
+    }
+//  不用加减乘除做加法
+    class Solution4 {
+        public int add(int a, int b) {
+            while(b != 0) {
+                int c = (a & b) << 1;  //进位
+                a ^= b; //非进位和
+                b = c;//进位
+            }
+            return a;
+        }
+    }
 }
 
 

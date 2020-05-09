@@ -35,8 +35,8 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1019">
-              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+            <state relative-caret-position="449">
+              <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -318,12 +318,12 @@
       <workItem from="1588755502512" duration="753000" />
       <workItem from="1588811370858" duration="8294000" />
       <workItem from="1588893433734" duration="17652000" />
-      <workItem from="1588979822780" duration="8329000" />
+      <workItem from="1588979822780" duration="9784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121996000" />
+    <option name="totallyTimeSpent" value="123451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -714,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+        <state relative-caret-position="449">
+          <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
         </state>
       </provider>
     </entry>
