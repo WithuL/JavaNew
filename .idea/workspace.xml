@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0512/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0512/singleNumber.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,14 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0513/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="209">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_0513/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -151,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/Java_0512/TestDeom.java" />
         <option value="$PROJECT_DIR$/src/Java_0512/singleNumber.java" />
         <option value="$PROJECT_DIR$/src/Java_0513/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/Java_0513/Sort.java" />
       </list>
     </option>
   </component>
@@ -238,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetTest">
+  <component name="RunManager" selected="Application.Sort (1)">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0501.LeetCode" />
       <module name="JavaNew" />
@@ -246,17 +253,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_0501.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0430.LeetCode" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0430.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,6 +275,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_0511.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0513.Sort" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0513.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode" />
       <item itemvalue="Application.LeetCode (1)" />
       <item itemvalue="Application.Sort" />
       <item itemvalue="Application.Set" />
       <item itemvalue="Application.SetTest" />
+      <item itemvalue="Application.Sort (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort (1)" />
         <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.Set" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.LeetCode (1)" />
-        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +391,12 @@
       <workItem from="1589250503509" duration="3362000" />
       <workItem from="1589265309370" duration="2439000" />
       <workItem from="1589325185184" duration="2401000" />
-      <workItem from="1589351194041" duration="2180000" />
+      <workItem from="1589351194041" duration="7789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147661000" />
+    <option name="totallyTimeSpent" value="153270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -397,6 +404,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -404,11 +412,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22054794" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.083984375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12760417" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -418,7 +426,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -437,13 +444,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java_0426/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0426/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3040">
@@ -789,11 +789,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0513/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0513/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
         </state>
       </provider>
     </entry>
