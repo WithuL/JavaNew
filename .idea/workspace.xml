@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_0514/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="19">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_0514/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/Java_0513/Compare.java" />
         <option value="$PROJECT_DIR$/src/Java_0514/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/Java_0514/LeetCode.java" />
+        <option value="$PROJECT_DIR$/src/Java_0514/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -347,12 +357,12 @@
       <workItem from="1589265309370" duration="2439000" />
       <workItem from="1589325185184" duration="2401000" />
       <workItem from="1589351194041" duration="14870000" />
-      <workItem from="1589411405981" duration="3288000" />
+      <workItem from="1589411405981" duration="13507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163639000" />
+    <option name="totallyTimeSpent" value="173858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -400,7 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java_0429/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/Java_0427/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -762,8 +771,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0514/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="19">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0514/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
