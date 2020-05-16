@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Java_0516/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0516/MyHashMap.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,25 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0516/MyHashMap.java">
+      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java_0516/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestReflect.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Java_0516/TestReflect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="-73">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Java_04_24/Leet.java" />
         <option value="$PROJECT_DIR$/src/Java_04_25/Leet.java" />
         <option value="$PROJECT_DIR$/src/Java_04_26/Test.java" />
         <option value="$PROJECT_DIR$/src/Java_04_26/LeetCode.java" />
@@ -105,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/Java_0516/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/Java_0516/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/Java_0516/TestReflect.java" />
+        <option value="$PROJECT_DIR$/src/Java_0516/LeetCode.java" />
       </list>
     </option>
   </component>
@@ -128,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,13 +142,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Bit/JavaNew/src/Java_0429/MyPriorityQueueMin.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Bit/JavaNew/src/Java_0516/TestReflect.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -192,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestReflect">
+  <component name="RunManager" selected="Application.LeetCode">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0513.Compare" />
       <module name="JavaNew" />
@@ -204,13 +190,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0511.SetTest" />
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0516.LeetCode" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0511.*" />
+          <option name="PATTERN" value="Java_0516.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,19 +276,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SetTest" />
       <item itemvalue="Application.Sort (1)" />
       <item itemvalue="Application.Compare" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TestReflect" />
+      <item itemvalue="Application.LeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.TestReflect" />
         <item itemvalue="Application.Compare" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.Sort (1)" />
-        <item itemvalue="Application.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -342,11 +328,12 @@
       <workItem from="1589411405981" duration="15660000" />
       <workItem from="1589525482209" duration="2219000" />
       <workItem from="1589597418410" duration="6612000" />
+      <workItem from="1589631569333" duration="2058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184842000" />
+    <option name="totallyTimeSpent" value="186900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -362,7 +349,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22054794" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -390,17 +377,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java_0430/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="166" column="5" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0429/MyPriorityQueueMin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -742,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0516/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -758,13 +731,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_0516/TestReflect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="298">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0516/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_0516/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
