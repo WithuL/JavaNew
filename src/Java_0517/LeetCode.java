@@ -30,7 +30,7 @@ public class LeetCode {
                     }
                 }
             }
-            return res;
+            return res  ;
         }
     }
 //括号生成
