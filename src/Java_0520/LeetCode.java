@@ -62,3 +62,41 @@ public class LeetCode {
         }
     }
 }
+//在排序数组中查找元素的第一个和最后一个位置
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        if(nums.length == 0) {
+            return new int[] {-1,-1};
+        }
+        int start = 0;
+        int end = nums.length - 1;
+        int mid;
+        while(start <= end) {
+            mid = (start + end) / 2;
+            if(nums[mid] == target) {
+                int i = mid - 1;
+                int j = mid + 1;
+                while(i >= 0 && nums[i] == target) {
+                    i--;
+                }
+                while(j < nums.length && nums[j] == target) {
+                    j++;
+                }
+                return new int[]{i+ 1,j - 1};
+            }else if(nums[mid] <= nums[mid] ){
+                if(target >= nums[start] && target < nums[mid]) {
+                    end = mid - 1;
+                }else {
+                    start = mid + 1;
+                }
+            }else {
+                if(target > nums[mid] && target <= nums[end]) {
+                    start = mid + 1;
+                }else {
+                    end = mid - 1;
+                }
+            }
+        }
+        return new int[] {-1,-1};
+    }
+}
