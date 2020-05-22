@@ -1,7 +1,6 @@
 package Java_0521;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class LeetCode {
     //全排列
@@ -33,7 +32,7 @@ public class LeetCode {
         }
     }
     //旋转图像 这个方法不太好
-    class Solution {
+    class Solution2 {
         public void rotate(int[][] matrix) {
             int rowStart = 0;
             int colStart = 0;
@@ -56,6 +55,27 @@ public class LeetCode {
                 matrix[rowEnd][colEnd - i] = matrix[rowStart + i][colEnd];
                 matrix[rowStart + i][colEnd] = tmp;
             }
+        }
+    }
+
+
+    //字母异位词分组
+    class Solution3 {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            if(strs == null || strs.length == 0 ) {
+                return new ArrayList<>();
+            }
+            Map<String,ArrayList<String>> map = new HashMap<>();
+            for(String x : strs) {
+                char[] tmp = x.toCharArray();
+                Arrays.sort(tmp);
+                String key = String.valueOf(tmp);
+                if(!map.containsKey(key)) {
+                    map.put(key,new ArrayList<String>());
+                }
+                map.get(key).add(x);
+            }
+            return  new ArrayList<>(map.values());
         }
     }
 }

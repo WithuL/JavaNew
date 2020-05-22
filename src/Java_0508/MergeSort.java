@@ -1,7 +1,7 @@
-package Java_0513;
+package Java_0508;
 
-public class Sort {
-//    归并排序
+public class MergeSort {
+    //    归并排序
     public void mergeSort(int[] array) {
 //        这是归并排序的主方法，其他的都是辅助方法
 //        在这只需要传入待排序的数组
@@ -71,30 +71,4 @@ public class Sort {
         }
     }
 
-    public static void main(String[] args) {
-        int[] array = new int[] {9,5,2,7,3,6,8};
-        Sort sort = new Sort();
-        sort.mergeSort(array);
-        for(int x : array) {
-            System.out.print(x + " ");
-        }
-    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
