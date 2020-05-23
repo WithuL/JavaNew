@@ -112,4 +112,24 @@ public class LeetCode {
             return grid[grid.length-1][grid[0].length-1];
         }
     }
+    //子集
+    class Solution6 {
+        public List<List<Integer>> subsets(int[] nums) {
+            List<List<Integer>> res = new ArrayList<>();
+            List<Integer> tmp = new ArrayList<>();
+            helper(0,nums,res,tmp);
+            return res;
+        }
+        public void helper(int start,int[] nums,List<List<Integer>> res,List<Integer> tmp) {
+            res.add(new ArrayList<Integer>(tmp));
+            for(int i = start; i < nums.length; i++) {
+                tmp.add(nums[i]);
+                helper(i+1,nums,res,tmp);
+                tmp.remove(tmp.size() - 1);
+            }
+        }
+    }
+
 }
+
+
