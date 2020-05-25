@@ -1,5 +1,7 @@
 package Java_0525;
 
+import java.util.Arrays;
+
 class ListNode {
     int val;
     ListNode next;
@@ -8,7 +10,7 @@ class ListNode {
 
 public class LeetCode {
     //排序链表
-    class Solution {
+    class Solution2 {
         private ListNode sortList(ListNode head) {
             if (head == null || head.next == null)
                 return head;
@@ -39,10 +41,52 @@ public class LeetCode {
     }
 	
 	//数组中的第K个最大元素
-	class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        Arrays.sort(nums);
-        return nums[nums.length - k];
+	class Solution3 {
+        public int findKthLargest(int[] nums, int k) {
+            Arrays.sort(nums);
+            return nums[nums.length - k];
+        }
     }
-}
+
+    //最大正方形
+    class Solution {
+        public int maximalSquare(char[][] matrix) {
+            if(matrix.length == 0) {
+                return 0;
+            }
+            int row = matrix.length;
+            int col = matrix[0].length;
+            int[][]dp = new int[row+1][col+1];
+            int max = 0;
+            for(int i = 0; i < row; i++) {
+                for( int j = 0; j < col; j++) {
+                    if(matrix[i][j] == '1'){
+                        dp[i+1][j+1] = Math.min(Math.min(dp[i+1][j],dp[i][j+1]),dp[i][j])+ 1;
+                        max = Math.max(max,dp[i+1][j+1]);
+                    }
+                }
+            }
+            return max*max;
+        }
+    }
+
+    //反转二叉树
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+    class Solution4 {
+        public TreeNode invertTree(TreeNode root) {
+            if(root == null) {
+                return null;
+            }
+            TreeNode left = root.left;
+            TreeNode right = root.right;
+            root.left = invertTree(right);
+            root.right = invertTree(left);
+            return root;
+        }
+    }
 }
