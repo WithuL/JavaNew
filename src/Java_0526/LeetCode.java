@@ -69,4 +69,19 @@ public class LeetCode {
             return false;
         }
     }
+
+    //比特位计数
+    class Solution4 {
+        public int[] countBits(int num) {
+            int[] res = new int[num+1];
+            for(int i = 0,j = 0; i <= num; i++,j++) {
+                int tmp = i;
+                while(tmp > 0) {
+                    res[j] += tmp & 1;
+                    tmp >>= 1;
+                }
+            }
+            return res;
+        }
+    }
 }
