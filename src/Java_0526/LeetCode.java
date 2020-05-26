@@ -45,5 +45,28 @@ public class LeetCode {
             return res;
         }
     }
-    
+
+    //搜索二维矩阵2
+    class Solution3 {
+        public boolean searchMatrix(int[][] matrix, int target) {
+            int rows = matrix.length;
+            if(rows == 0) {
+                return false;
+            }
+            int cols = matrix[0].length;
+            int index;
+            for(int i = rows-1; i >=0; i--) {
+                for(int j = 0; j < cols; j++) {
+                    if(target > matrix[i][j]) {
+                        continue;
+                    }else if(target < matrix[i][j]) {
+                        break;
+                    }else{
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+    }
 }
