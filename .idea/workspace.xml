@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNew/LeetCode.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,106 +24,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0521/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0522/TestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0522/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2223">
-              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0523/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0524/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0525/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0526/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Java_0528/LeetCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86127">
-              <caret line="4569" selection-start-line="4569" selection-end-line="4569" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_0522/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -137,126 +35,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Java_0507/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0507/Test.java" />
-        <option value="$PROJECT_DIR$/src/Java_0425/Leet.java" />
-        <option value="$PROJECT_DIR$/src/Java_0505/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0505/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/SortTwice.java" />
-        <option value="$PROJECT_DIR$/src/Java_0509/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0510/Test.java" />
-        <option value="$PROJECT_DIR$/src/Java_0510/Set.java" />
-        <option value="$PROJECT_DIR$/src/Java_0511/Set.java" />
-        <option value="$PROJECT_DIR$/src/Java_0511/SetTest.java" />
-        <option value="$PROJECT_DIR$/src/Java_0511/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/Java_0512/TestDeom.java" />
-        <option value="$PROJECT_DIR$/src/Java_0512/singleNumber.java" />
-        <option value="$PROJECT_DIR$/src/Java_0513/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/Java_0513/Sort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0513/Compare.java" />
-        <option value="$PROJECT_DIR$/src/Java_0514/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/Java_0514/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0514/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/Java_0515/Node.java" />
-        <option value="$PROJECT_DIR$/src/Java_0515/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0516/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/Java_0516/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/src/Java_0516/TestReflect.java" />
-        <option value="$PROJECT_DIR$/src/Java_0516/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0517/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0517/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0519.java" />
-        <option value="$PROJECT_DIR$/src/Java_0520/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0517/Java_0519.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/InserSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/Swap.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/Sort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/Main.java" />
-        <option value="$PROJECT_DIR$/src/Java_0508/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0521/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0522/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/Java_0522/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/Java_0522/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0523/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0524/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0525/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0526/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/Java_0528/LeetCode.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1505" />
-    <option name="height" value="850" />
-  </component>
+  <component name="ProjectId" id="1ccV53Vwa4CMbDOz6or7wNkVFFj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_0528" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Bit/JavaNew/src/Java_0516/TestReflect.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -267,19 +68,7 @@
       <recent name="Java_0429" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Compare">
+  <component name="RunManager" selected="Application.LeetCode (1)">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0513.Compare" />
       <module name="JavaNew" />
@@ -290,6 +79,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0530.LeetCode" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0530.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0516.LeetCode" />
@@ -301,6 +107,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0523.LeetCode" />
@@ -317,6 +126,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0516.TestReflect" />
@@ -328,56 +140,42 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Compare" />
       <item itemvalue="Application.TestReflect" />
       <item itemvalue="Application.LeetCode" />
       <item itemvalue="Application.TestDemo (1)" />
+      <item itemvalue="Application.LeetCode (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode (1)" />
         <item itemvalue="Application.TestDemo (1)" />
         <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.TestReflect" />
@@ -440,51 +238,50 @@
       <workItem from="1590624065181" duration="598000" />
       <workItem from="1590624964439" duration="37000" />
       <workItem from="1590678013324" duration="1162000" />
+      <workItem from="1590796131595" duration="4153000" />
+      <workItem from="1590821308564" duration="391000" />
+      <workItem from="1590821743404" duration="916000" />
+      <workItem from="1590827686659" duration="283000" />
+      <workItem from="1590828003126" duration="622000" />
+      <workItem from="1590828650704" duration="531000" />
+      <workItem from="1590829204944" duration="203000" />
+      <workItem from="1590829457331" duration="309000" />
+      <workItem from="1590829784866" duration="53000" />
+      <workItem from="1590829861474" duration="507000" />
+      <workItem from="1590830394482" duration="2266000" />
+      <workItem from="1590833039870" duration="2544000" />
+      <workItem from="1590835794375" duration="12000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225261000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22054794" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1438802" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3294271" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="361" y="53" key="#Plugins" timestamp="1590827749349">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1590827749349" />
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1590830367368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590830367368" />
+    <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1590830683474" />
+    <state x="401" y="50" key="SettingsEditor" timestamp="1590835803750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="50" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590835803750" />
+    <state x="528" y="283" width="617" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590831392569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="283" width="617" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1590831392569" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590831386836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590831386836" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,365 +289,20 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Java_0523/LeetCode.java</url>
           <line>7</line>
-          <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Java_0523/LeetCode.java</url>
           <line>6</line>
-          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0530/LeetCode.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="1430" column="27" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="477" column="16" lean-forward="true" selection-start-line="477" selection-start-column="16" selection-end-line="477" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/AutoCloseable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/Closeable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/Flushable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FilterOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="212" column="8" lean-forward="true" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0515/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0515/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1166" column="16" selection-start-line="1166" selection-start-column="16" selection-end-line="1166" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="127" column="26" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="351" column="35" selection-start-line="351" selection-start-column="35" selection-end-line="351" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0516/TestReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0516/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0516/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0517/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0517/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0520/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0517/Java_0519.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0506/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/Swap.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/InserSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0509/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1893">
-          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0512/singleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/SortTwice.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0513/Sort.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java_0508/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0513/Compare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0513/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0514/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0514/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0521/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0522/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0522/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0522/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86127">
-          <caret line="4569" selection-start-line="4569" selection-end-line="4569" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0523/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0524/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0525/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0526/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_0528/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
