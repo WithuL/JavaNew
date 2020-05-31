@@ -117,4 +117,15 @@ public class LeetCode {
             return dp_i_0;
         }
     }
+    class Solution6 {
+        public int maxProfit(int[] prices, int fee) {
+            int i_0 = 0, i_1 = Integer.MIN_VALUE;
+            for(int price : prices) {
+                int tmp = i_0;
+                i_0 = Math.max(i_0, i_1 + price);
+                i_1 = Math.max(i_1, tmp - price - fee);
+            }
+            return i_0;
+        }
+    }
 }
