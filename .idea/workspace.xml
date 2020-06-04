@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNew/Java_0603/LeetCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0603/LeetCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0603/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0603/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0604/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0604/LeetCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +280,7 @@
       <workItem from="1591083629442" duration="5765000" />
       <workItem from="1591166371155" duration="3136000" />
       <workItem from="1591193037862" duration="3099000" />
-      <workItem from="1591234873412" duration="2742000" />
+      <workItem from="1591234873412" duration="5184000" />
     </task>
     <servers />
   </component>
@@ -321,38 +320,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1591237824811">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591237824811" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1591237824811">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591237824811" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1591237824811">
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1591239950723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591237824811" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1591237824811">
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591239950723" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591237824811" />
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1591237810688">
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591237810688" />
-    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1591237810688">
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591237810688" />
-    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1591237810688">
+    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591237810688" />
-    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1591237810688">
+    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
+    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1591239950724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591237810688" />
+    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591239950724" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -392,6 +391,61 @@
           <url>file://$PROJECT_DIR$/src/Java_0601/Main.java</url>
           <line>120</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0604/LeetCode.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -47,5 +47,26 @@ public class LeetCode {
         return true;
     }
 
-    
+    public void solution1 () {
+        Scanner sc = new Scanner(System.in);
+        while(sc.hasNextLine()) {
+            String s1 = sc.nextLine();
+            String s2 = sc.nextLine();
+            StringBuilder tmp = new StringBuilder(s1);
+            for(int i = 0; i < tmp.length(); i++) {
+                for(int j = 0; j < s2.length(); j++) {
+                    if(tmp.charAt(i) == s2.charAt(j)){
+                        tmp.deleteCharAt(i);
+                        tmp.insert(i,']');
+                    }
+                }
+            }
+            for(int i = 0; i < tmp.length() ; i++) {
+                if(tmp.charAt(i) == ']') {
+                    tmp.deleteCharAt(i);
+                }
+            }
+            System.out.println(tmp.toString());
+        }
+    }
 }
