@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0608/TestDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0608/TestDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <recent name="Java_0429" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDemo2">
+  <component name="RunManager" selected="Application.LeetCode">
     <configuration name="LeetCode (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0606.LeetCode" />
       <module name="JavaNew" />
@@ -101,11 +102,12 @@
       </method>
     </configuration>
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0603.LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="Java_0608.LeetCode" />
       <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0516.*" />
+          <option name="PATTERN" value="Java_0608.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0606.TestDemo" />
+    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0608.TestDemo2" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0606.*" />
+          <option name="PATTERN" value="Java_0608.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0608.TestDemo2" />
+    <configuration name="TestDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0608.TestDemo3" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -183,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode" />
       <item itemvalue="Application.LeetCode (4)" />
-      <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestDemo2" />
+      <item itemvalue="Application.TestDemo3" />
+      <item itemvalue="Application.LeetCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Application.LeetCode (4)" />
+        <item itemvalue="Application.TestDemo3" />
         <item itemvalue="Application.TestDemo2" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.LeetCode (4)" />
-        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +285,7 @@
       <workItem from="1591347793247" duration="2727000" />
       <workItem from="1591427545469" duration="9818000" />
       <workItem from="1591573455987" duration="11738000" />
-      <workItem from="1591598931649" duration="4748000" />
+      <workItem from="1591598931649" duration="9123000" />
     </task>
     <servers />
   </component>
@@ -327,42 +329,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1591581904778" />
+    <state x="511" y="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591618787449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1591618787449" />
     <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1590888010564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1591605418383">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1591619392309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591605418383" />
-    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1591605418382">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591619392309" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1591619392309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591605418382" />
-    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1591605418382">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591619392309" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1591619392309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591605418382" />
-    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1591605418382">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591619392309" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1591619392309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591605418382" />
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1591600246095">
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591619392309" />
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1591619153604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591600246095" />
-    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1591600246095">
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591619153604" />
+    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1591619153604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591600246095" />
-    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1591600246095">
+    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591619153604" />
+    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1591619153604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591600246095" />
-    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1591600246095">
+    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591619153604" />
+    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1591619153604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591600246095" />
+    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591619153604" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -402,6 +408,51 @@
           <url>file://$PROJECT_DIR$/src/Java_0601/Main.java</url>
           <line>120</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0608/LeetCode.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
