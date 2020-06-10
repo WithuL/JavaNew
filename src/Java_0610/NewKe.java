@@ -25,7 +25,7 @@ public class NewKe {
 //            System.out.println(arr.get(0));
 //        }
 //    }
-//
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

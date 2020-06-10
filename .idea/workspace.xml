@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNew/Java_0610/NewKe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNew/Java_0610/NewKe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0610/NewKe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0610/NewKe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,42 +87,31 @@
       <recent name="Java_0429" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewKe">
-    <configuration name="LeetCode (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0606.LeetCode" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0606.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0608.LeetCode" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0608.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NewKe4">
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0523.LeetCode" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="NewKe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0610.NewKe" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0610.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewKe4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0610.NewKe4" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -167,6 +158,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="newke3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0610.newke3" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0610.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -184,19 +189,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode (4)" />
       <item itemvalue="Application.LeetCode" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TestDemo2 (1)" />
       <item itemvalue="Application.NewKe" />
+      <item itemvalue="Application.newke3" />
+      <item itemvalue="Application.NewKe4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewKe4" />
+        <item itemvalue="Application.newke3" />
         <item itemvalue="Application.NewKe" />
         <item itemvalue="Application.TestDemo2 (1)" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.LeetCode (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +298,8 @@
       <workItem from="1591697764262" duration="253000" />
       <workItem from="1591747986572" duration="107000" />
       <workItem from="1591748113098" duration="7300000" />
-      <workItem from="1591771624294" duration="2233000" />
+      <workItem from="1591771624294" duration="5779000" />
+      <workItem from="1591786924454" duration="38000" />
     </task>
     <servers />
   </component>
@@ -346,46 +353,46 @@
     </state>
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
     <state x="589" y="159" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1591698011059" />
-    <state width="1431" height="276" key="GridCell.Tab.0.bottom" timestamp="1591775158014">
+    <state width="1431" height="274" key="GridCell.Tab.0.bottom" timestamp="1591780643147">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1591775158014" />
-    <state width="1431" height="276" key="GridCell.Tab.0.center" timestamp="1591775158014">
+    <state width="1431" height="274" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1591780643147" />
+    <state width="1431" height="274" key="GridCell.Tab.0.center" timestamp="1591780643146">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1591775158014" />
-    <state width="1431" height="276" key="GridCell.Tab.0.left" timestamp="1591775158014">
+    <state width="1431" height="274" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1591780643146" />
+    <state width="1431" height="274" key="GridCell.Tab.0.left" timestamp="1591780643145">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1591775158014" />
-    <state width="1431" height="276" key="GridCell.Tab.0.right" timestamp="1591775158014">
+    <state width="1431" height="274" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1591780643145" />
+    <state width="1431" height="274" key="GridCell.Tab.0.right" timestamp="1591780643146">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1591775158014" />
-    <state width="1431" height="276" key="GridCell.Tab.1.bottom" timestamp="1591775144442">
+    <state width="1431" height="274" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1591780643146" />
+    <state width="1431" height="274" key="GridCell.Tab.1.bottom" timestamp="1591780643148">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
-    <state width="1431" height="276" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1591775144442" />
-    <state width="1431" height="276" key="GridCell.Tab.1.center" timestamp="1591775144441">
+    <state width="1431" height="274" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1591780643148" />
+    <state width="1431" height="274" key="GridCell.Tab.1.center" timestamp="1591780643147">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1591775144441" />
-    <state width="1431" height="276" key="GridCell.Tab.1.left" timestamp="1591775144441">
+    <state width="1431" height="274" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1591780643147" />
+    <state width="1431" height="274" key="GridCell.Tab.1.left" timestamp="1591780643147">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="276" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1591775144441" />
-    <state width="1431" height="276" key="GridCell.Tab.1.right" timestamp="1591775144441">
+    <state width="1431" height="274" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1591780643147" />
+    <state width="1431" height="274" key="GridCell.Tab.1.right" timestamp="1591780643148">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
-    <state width="1431" height="276" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1591775144441" />
+    <state width="1431" height="274" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1591780643148" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -493,6 +500,31 @@
           <url>file://$PROJECT_DIR$/src/Java_0610/NewKe.java</url>
           <line>37</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0610/newke3.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0610/newke3.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0610/newke3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0610/newke3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0610/newke3.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
