@@ -12,7 +12,7 @@ public class TestDemo2 {
 //    }
 
 
-//    public static void main(String[] args) throws InterruptedException {
+    //    public static void main(String[] args) throws InterruptedException {
 //        Object  object = new Object();
 //        synchronized (object){
 //            System.out.println("等待前");
@@ -20,14 +20,14 @@ public class TestDemo2 {
 //            System.out.println("等待后");
 //        }
 //    }
-
+//
     public static void main(String[] args) throws InterruptedException {
-        Object  locker = new Object();
-        Thread t1 = new Thread(){
+        Object locker = new Object();
+        Thread t1 = new Thread() {
             @Override
             public void run() {
                 synchronized (locker) {
-                    while(true) {
+                    while (true) {
                         try {
                             //针对哪个对象锁,就要调用哪个对象的wait方法
                             System.out.println("进入阻塞等待");
@@ -42,7 +42,7 @@ public class TestDemo2 {
             }
         };
         t1.start();
-        Thread t2 = new Thread(){
+        Thread t2 = new Thread() {
             @Override
             public void run() {
                 synchronized (locker) {
@@ -57,6 +57,4 @@ public class TestDemo2 {
         };
         t2.start();
     }
-
-
 }
