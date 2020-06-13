@@ -7,14 +7,14 @@ public class TestDemo{
         //1.基于链表
         //2.基于数组
         private int[] array = new int[1000];
-        private int head = 0;
-        private int tail = 0;
+        private volatile int head = 0;
+        private volatile int tail = 0;
         //head 指向的是队列的队首位置
         //tail 指向的是队列的队尾的下一个位置
         //head和tail构成了一个前闭后开的区间
         //当两者重合的时候,队列可能满了,也可能为空
         //所以就需要引入一个size来表示
-        private int size = 0;
+        private volatile int size = 0;
         //队列的基本操作
         //1.入队列
         //2.出队列
@@ -25,7 +25,7 @@ public class TestDemo{
             synchronized (this) {
                 //如果交易场所已经满了,但是没有消费者消费,那么此时就不能再生产了
                 //就要等到消费者消费了,交易场所有空位了才能进行生产
-                if(size == array.length) {
+                while(size == array.length) {
                     wait();
                     //那么在这里进行了等待
                     //如果由消费者消费了,也就是访问了take()方法,那么就可以通知当前线程进行生产
@@ -37,7 +37,7 @@ public class TestDemo{
                 if(tail == array.length) {
                     tail = 0;
                 }
-                notify();
+                notifyAll();
             }
         }
 
@@ -49,7 +49,7 @@ public class TestDemo{
                 //如果消费者消费的太快了,库存都被买光了
                 //那么就要进行等待,等到生产者生产了再继续买
                 //也就是size == 0 时等待
-                if(size == 0) {
+                while(size == 0) {
                     wait();
                     //既然是因为库存没了进行等待
                     //那么生产了之后就要通知线程进行消费
@@ -62,7 +62,7 @@ public class TestDemo{
                 if(head == array.length) {
                     head = 0;
                 }
-                notify();
+                notifyAll();
                 return ret;
             }
         }
