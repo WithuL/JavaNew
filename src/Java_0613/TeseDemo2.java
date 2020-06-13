@@ -69,7 +69,7 @@ public class TeseDemo2 {
     static class Timer {
         //为了避免忙等,需要使用wait方法
         //使用一个单独的对象来辅助进行wait
-        private Object  mailBox = new Object();
+        private Object mailBox = new Object();
 
         //定时器的结构由三部分
         //1.使用一个类来描述"任务"
@@ -81,6 +81,7 @@ public class TeseDemo2 {
             Woker woker = new Woker(queue, mailBox);
             woker.start();
         }
+
         //4.还需要提供一个方法,让调用者能把任务给"安排进来"
         public void schedule(Runnable command, long after) {
             Task task = new Task(command, after);
@@ -89,16 +90,17 @@ public class TeseDemo2 {
                 mailBox.notify();
             }
         }
-
-        public static void main(String[] args) {
-            Timer timer = new Timer();
-            timer.schedule(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("屏幕前的你最帅");
-                    timer.schedule(this, 500);
-                }
-            }, 2000);
-        }
     }
+
+    public static void main(String[] args) {
+        Timer timer = new Timer();
+        timer.schedule(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("屏幕前的你最帅");
+                timer.schedule(this, 500);
+            }
+        }, 2000);
+    }
+
 }
