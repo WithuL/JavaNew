@@ -87,7 +87,7 @@
       <recent name="Java_0429" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode2">
+  <component name="RunManager" selected="Application.TestDemo2">
     <configuration name="LeetCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0615.LeetCode2" />
       <module name="JavaNew" />
@@ -116,20 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewKe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0613.NewKe2" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0613.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TeseDemo2$Timer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0613.TeseDemo2$Timer" />
       <module name="JavaNew" />
@@ -151,6 +137,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_0613.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0615.TestDemo2" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0615.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NewKe2" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TeseDemo2$Timer" />
       <item itemvalue="Application.MyException" />
       <item itemvalue="Application.LeetCode2" />
+      <item itemvalue="Application.TestDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo2" />
         <item itemvalue="Application.LeetCode2" />
         <item itemvalue="Application.MyException" />
         <item itemvalue="Application.TeseDemo2$Timer" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.NewKe2" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +313,9 @@
       <workItem from="1591929333881" duration="7187000" />
       <workItem from="1592035771919" duration="16165000" />
       <workItem from="1592088329098" duration="8691000" />
-      <workItem from="1592174995564" duration="3462000" />
+      <workItem from="1592174995564" duration="6444000" />
+      <workItem from="1592190093752" duration="735000" />
+      <workItem from="1592199129504" duration="6772000" />
     </task>
     <servers />
   </component>
@@ -346,11 +348,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591167464911" />
-    <state x="613" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1592092444820">
+    <state x="613" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1592204458332">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591580934130" />
-    <state x="613" y="123" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1592092444820" />
+    <state x="613" y="123" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1592204458332" />
     <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591167461266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -373,46 +375,46 @@
     </state>
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
     <state x="589" y="159" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1591698011059" />
-    <state width="1431" height="183" key="GridCell.Tab.0.bottom" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.0.bottom" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.0.center" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.0.center" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.0.left" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.0.left" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.0.right" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.0.right" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.1.bottom" timestamp="1592180267726">
+    <state width="1431" height="180" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.1.bottom" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
-    <state width="1431" height="183" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592180267726" />
-    <state width="1431" height="183" key="GridCell.Tab.1.center" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.1.center" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.1.left" timestamp="1592180267725">
+    <state width="1431" height="180" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.1.left" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
-    <state width="1431" height="183" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1592180267725" />
-    <state width="1431" height="183" key="GridCell.Tab.1.right" timestamp="1592180267726">
+    <state width="1431" height="180" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
+    <state width="1431" height="180" key="GridCell.Tab.1.right" timestamp="1592204854324">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
-    <state width="1431" height="183" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1592180267726" />
+    <state width="1431" height="180" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1592204854324" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -431,11 +433,11 @@
     </state>
     <state x="528" y="283" width="627" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1590888218736" />
     <state x="569" y="297" width="627" height="299" key="org.intellij.images.editor.actions.BackgroundImageDialog/62.0.1474.864@62.0.1474.864" timestamp="1591698014297" />
-    <state x="476" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1592090428836">
+    <state x="476" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1592204169057">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591576205721" />
-    <state x="476" y="152" width="672" height="711" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1592090428836" />
+    <state x="476" y="152" width="672" height="711" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1592204169057" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
