@@ -26,7 +26,7 @@ public class LeetCode {
         }
     }
 
-//    public class Main{
+//    public class NewKe{
 //        public static void main(String[] args) {
 //            Scanner sc = new Scanner(System.in);
 //            while(sc.hasNextInt()) {
