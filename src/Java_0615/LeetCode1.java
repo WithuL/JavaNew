@@ -1,6 +1,6 @@
 package Java_0615;
 
-public class LeeCode1 {
+public class LeetCode1 {
     class Solution {
         //每日温度
         public int[] dailyTemperatures(int[] T) {
