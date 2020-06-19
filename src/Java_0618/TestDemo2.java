@@ -23,10 +23,9 @@ public class TestDemo2 {
         while((len = fileInputStream.read(buffer) )!= -1) {
             //读取成功,就把读到的内容写到另一个文件中即可
             //因为len的值不一定就是和缓冲区一样长
+            //2.把读取到的内容写入到destPath对应的文件中
             fileOutputStream.write(buffer, 0, len);
         }
-        //2.把读取到的内容写入到destPath对应的文件中
-        File file = new File("BaiduNetdiskDownload/wallpaper.jpg");
         //3.关闭文件
         fileInputStream.close();
         fileOutputStream.close();
