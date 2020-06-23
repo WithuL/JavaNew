@@ -1,4 +1,4 @@
-package Java_0624;
+package Java_0623;
 
 import java.util.Arrays;
 

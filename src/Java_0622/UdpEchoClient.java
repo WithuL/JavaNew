@@ -24,7 +24,7 @@ public class UdpEchoClient {
         socket = new DatagramSocket();
     }
 
-    public void start() throws IOException {
+    public void start() throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             // 1. 读取用户输入的数据
@@ -40,13 +40,14 @@ public class UdpEchoClient {
             // 3. 从服务器读取响应
             DatagramPacket responsePacket = new DatagramPacket(new byte[4096], 4096);
             socket.receive(responsePacket);
-            String response = new String(responsePacket.getData(), 0, responsePacket.getLength()).trim();
+            String response = new String(responsePacket.getData()).trim();
             // 4. 显示响应数据
+            Thread.sleep(1000);
             System.out.println(response);
         }
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         //这是一个环回ip,自己访问自己,服务器和客户端都在同一台主机上,客户端写的服务器ip就是环回ip,如果不在同一个主机上,此处的ip就要写成服务器的ip
         //并且后面的端口要和服务器绑定的端口相匹配
         UdpEchoClient client = new UdpEchoClient("127.0.0.1", 9090);
