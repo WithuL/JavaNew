@@ -2,11 +2,13 @@ package Java_0628;
 
 import java.io.*;
 import java.net.Socket;
-import java.security.spec.ECField;
 import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class TcpEchoClient {
-    private Socket socket = null;
+    private Socket socket ;
+    ExecutorService excutorService = Executors.newCachedThreadPool();
     public TcpEchoClient(String ip, int port) throws IOException {
         socket = new Socket(ip, port);
     }
