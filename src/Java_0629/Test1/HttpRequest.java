@@ -1,4 +1,4 @@
-package Java_0629;
+package Java_0629.Test1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class HttpRequest {
         request.version = firstLineTokens[2];
         int pos = request.url.indexOf("?");
         if(pos != -1) {
-            String parameter = request.url.substring(pos);
+            String parameter = request.url.substring(pos + 1);
             parseKV(parameter, request.parameters);
         }
         String line = "";
