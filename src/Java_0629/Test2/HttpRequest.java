@@ -10,7 +10,7 @@ public class HttpRequest {
     private String method;
     private String url;
     private String version;
-    private Map<String, String> header = new HashMap<>();
+    private Map<String, String> headers = new HashMap<>();
     private Map<String, String> parameters = new HashMap<>();
     private Map<String, String> cookies = new HashMap<>();
     private String body;
@@ -34,10 +34,10 @@ public class HttpRequest {
         String line = "";
         while((line = bufferedReader.readLine()) != null && line.length() != 0) {
             String[] headerTokens = line.split(": ");
-            request.header.put(headerTokens[0], headerTokens[1]);
+            request.headers.put(headerTokens[0], headerTokens[1]);
         }
 
-        String cookie = request.header.get("Cookie");
+        String cookie = request.headers.get("Cookie");
         if(cookie != null) {
             parseCookie(cookie, request.cookies);
         }
@@ -45,7 +45,7 @@ public class HttpRequest {
         if("POST".equalsIgnoreCase(request.method) ||
             "PUT".equalsIgnoreCase(request.method)
         ) {
-            int contentLength = Integer.parseInt(request.header.get("Content-Length"));
+            int contentLength = Integer.parseInt(request.headers.get("Content-Length"));
             char[] buffer = new char[contentLength];
             int len = bufferedReader.read(buffer);
             request.body = new String(buffer, 0 ,len);
@@ -57,8 +57,8 @@ public class HttpRequest {
     private static void parseCookie(String cookie, Map<String, String> cookies) {
         String[] KVTokens = cookie.split("; ");
         for(String kv : KVTokens) {
-            String[] KV = kv.split("=");
-            cookies.put(KV[0], KV[1]);
+            String[] result = kv.split("=");
+            cookies.put(result[0], result[1]);
         }
     }
 
@@ -91,10 +91,10 @@ public class HttpRequest {
     }
 
     public String getHeader(String key) {
-        return header.get(key);
+        return headers.get(key);
     }
 
     public String getCookie(String key) {
-        return getCookie(key);
+        return cookies.get(key);
     }
 }

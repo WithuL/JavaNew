@@ -36,7 +36,7 @@ public class HttpServerV3 {
             } else if("POST".equalsIgnoreCase(request.getMethod())) {
                 doPost(request, response);
             } else {
-                response.setStatus("405");
+                response.setStatus(405);
                 response.setMessage("Method Not Allowed");
             }
             response.flush();
@@ -57,7 +57,7 @@ public class HttpServerV3 {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String line = "";
             while((line = bufferedReader.readLine()) != null ) {
-                response.setBody(line+"\n");
+                response.writeBody(line+"\n");
             }
             bufferedReader.close();
         }

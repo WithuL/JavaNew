@@ -8,11 +8,11 @@ import java.util.Map;
 
 public class HttpResponse {
     private String version = "HTTP/1.1";
-    private String status;
+    private int status;
     private String message;
-    private Map<String, String> header = new HashMap<>();
-    private StringBuffer body;
-    private OutputStream outputStream;
+    private Map<String, String> headers = new HashMap<>();
+    private StringBuilder body = new StringBuilder();
+    private OutputStream outputStream = null;
 
     public static HttpResponse build(OutputStream outputStream) {
         HttpResponse response = new HttpResponse();
@@ -24,7 +24,7 @@ public class HttpResponse {
         this.version = version;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 
@@ -33,10 +33,10 @@ public class HttpResponse {
     }
 
     public void setHeader(String k, String v) {
-        this.header.put(k, v);
+        this.headers.put(k, v);
     }
 
-    public void setBody(String content) {
+    public void writeBody(String content) {
         this.body.append(content);
     }
 
@@ -47,8 +47,8 @@ public class HttpResponse {
     public void flush() throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
         bufferedWriter.write(version + " "+status+" "+message+"\n");
-        header.put("Content-Length", body.toString().getBytes().length + "");
-        for(Map.Entry entry : header.entrySet()) {
+        headers.put("Content-Length", body.toString().getBytes().length + "");
+        for(Map.Entry<String, String> entry : headers.entrySet()) {
             bufferedWriter.write(entry.getKey()+": " +entry.getValue() +"\n");
         }
         bufferedWriter.write("\n");
