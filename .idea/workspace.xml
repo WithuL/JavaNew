@@ -26,8 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="单双向链表的实现">
-      <change afterPath="$PROJECT_DIR$/src/Java_0630/BinaryTree/BinaryTree.java" afterDir="false" />
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="二叉树,数字之和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,21 +109,7 @@
       <recent name="F:\Bit\JavaNew\src\Java_0629\Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewKe3">
-    <configuration name="HttpServerV2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0629.TestBack.HttpServerV2" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0629.TestBack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NewKe4">
     <configuration name="HttpServerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0629.Test1.HttpServerV2" />
       <module name="JavaNew" />
@@ -181,6 +166,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewKe4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0630.NewKe4" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0630.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -205,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HttpServerV2" />
-      <item itemvalue="Application.HttpServerV2 (1)" />
       <item itemvalue="Application.HttpServerV3" />
       <item itemvalue="Application.NewKe1" />
       <item itemvalue="Application.NewKe3" />
+      <item itemvalue="Application.NewKe4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewKe4" />
         <item itemvalue="Application.NewKe3" />
         <item itemvalue="Application.NewKe1" />
         <item itemvalue="Application.HttpServerV2" />
         <item itemvalue="Application.HttpServerV3" />
-        <item itemvalue="Application.HttpServerV2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +342,7 @@
       <workItem from="1593386822770" duration="27288000" />
       <workItem from="1593444287158" duration="2971000" />
       <workItem from="1593472614756" duration="13010000" />
+      <workItem from="1593506794588" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary="顺序表的实现">
       <created>1592875264217</created>
@@ -414,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593483948632</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="二叉树,数字之和">
+      <created>1593506909152</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593506909152</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +467,8 @@
     <MESSAGE value="熟悉html" />
     <MESSAGE value="栈和队列的实现" />
     <MESSAGE value="单双向链表的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="单双向链表的实现" />
+    <MESSAGE value="二叉树,数字之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树,数字之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="0" key="#Auto_Import" timestamp="1593310425421">
@@ -523,58 +531,58 @@
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
     <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1592811220926" />
     <state x="589" y="159" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1592875138781" />
-    <state width="1428" height="221" key="GridCell.Tab.0.bottom" timestamp="1593502308101">
+    <state width="1428" height="128" key="GridCell.Tab.0.bottom" timestamp="1593509200434">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1593134103768" />
-    <state width="1428" height="221" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593502308101" />
-    <state width="1428" height="221" key="GridCell.Tab.0.center" timestamp="1593502308101">
+    <state width="1428" height="128" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593509200434" />
+    <state width="1428" height="128" key="GridCell.Tab.0.center" timestamp="1593509200434">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1428" height="221" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1593502308101" />
-    <state width="1428" height="221" key="GridCell.Tab.0.left" timestamp="1593502308101">
+    <state width="1428" height="128" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1593509200434" />
+    <state width="1428" height="128" key="GridCell.Tab.0.left" timestamp="1593509200434">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1428" height="221" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1593502308101" />
-    <state width="1428" height="221" key="GridCell.Tab.0.right" timestamp="1593502308101">
+    <state width="1428" height="128" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1593509200434" />
+    <state width="1428" height="128" key="GridCell.Tab.0.right" timestamp="1593509200434">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1428" height="221" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1593502308101" />
-    <state width="1428" height="221" key="GridCell.Tab.1.bottom" timestamp="1593502308102">
+    <state width="1428" height="128" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1593509200434" />
+    <state width="1428" height="221" key="GridCell.Tab.1.bottom" timestamp="1593508409898">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="221" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593502308102" />
-    <state width="1428" height="221" key="GridCell.Tab.1.center" timestamp="1593502308102">
+    <state width="1428" height="221" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593508409898" />
+    <state width="1428" height="221" key="GridCell.Tab.1.center" timestamp="1593508409898">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="221" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1593502308102" />
-    <state width="1428" height="221" key="GridCell.Tab.1.left" timestamp="1593502308102">
+    <state width="1428" height="221" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1593508409898" />
+    <state width="1428" height="221" key="GridCell.Tab.1.left" timestamp="1593508409897">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="221" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1593502308102" />
-    <state width="1428" height="221" key="GridCell.Tab.1.right" timestamp="1593502308102">
+    <state width="1428" height="221" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1593508409897" />
+    <state width="1428" height="221" key="GridCell.Tab.1.right" timestamp="1593508409898">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="221" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1593502308102" />
+    <state width="1428" height="221" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1593508409898" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -588,16 +596,16 @@
     </state>
     <state x="255" y="87" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591683021878" />
     <state x="317" y="106" width="996" height="707" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1592885205010" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593483919498">
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593506925888">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1592964082270" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593483919498" />
-    <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593501593376">
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593506925888" />
+    <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593506915480">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="595" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1474.864@62.0.1474.864" timestamp="1592961800670" />
-    <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/66.0.1470.864@66.0.1470.864" timestamp="1593501593376" />
+    <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/66.0.1470.864@66.0.1470.864" timestamp="1593506915480" />
     <state x="572" y="243" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593481269284">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
@@ -843,6 +851,21 @@
           <url>file://$PROJECT_DIR$/src/Java_0630/NewKe1.java</url>
           <line>56</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0630/NewKe4.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0630/NewKe4.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0630/NewKe4.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Java_0617/TestDemo2.java</url>
