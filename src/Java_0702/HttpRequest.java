@@ -12,7 +12,7 @@ public class HttpRequest {
     private Map<String,String> parameters = new HashMap<>();
     private Map<String, String> cookies = new HashMap<>();
     private String body;
-    public static HttpRequest vbuild (InputStream inputStream) throws IOException {
+    public static HttpRequest build (InputStream inputStream) throws IOException {
         HttpRequest request = new HttpRequest();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         String firstLine = bufferedReader.readLine();
