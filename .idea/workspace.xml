@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="成绩排序">
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="优先级队列堆得实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +351,7 @@
       <workItem from="1593644263973" duration="11046000" />
       <workItem from="1593677910931" duration="3709000" />
       <workItem from="1593755149881" duration="5535000" />
-      <workItem from="1593765363492" duration="9507000" />
+      <workItem from="1593765363492" duration="15299000" />
     </task>
     <task id="LOCAL-00001" summary="顺序表的实现">
       <created>1592875264217</created>
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593773701614</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="优先级队列堆得实现">
+      <created>1593781570393</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593781570393</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +548,8 @@
     <MESSAGE value="背包问题" />
     <MESSAGE value="DNA序列,百万富翁" />
     <MESSAGE value="成绩排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="成绩排序" />
+    <MESSAGE value="优先级队列堆得实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="优先级队列堆得实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="0" key="#Auto_Import" timestamp="1593310425421">
@@ -689,11 +697,11 @@
     <state x="317" y="106" width="996" height="707" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1592885205010" />
     <state x="321" y="106" width="914" height="707" key="SettingsEditor/66.0.1470.864@66.0.1470.864" timestamp="1593562800948" />
     <state x="387" y="133" key="SettingsEditor/66.0.1854.1080@66.0.1854.1080" timestamp="1593533557220" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593773704336">
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593781780595">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1592964082270" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593773704336" />
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593781780595" />
     <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593506915480">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
