@@ -26,11 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="ip地址转换">
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="年会抽奖">
+      <change afterPath="$PROJECT_DIR$/src/Java_0703/NewKe2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNew/Java_0629/Test2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0629/Test2/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -112,35 +111,7 @@
       <recent name="F:\Bit\JavaNew\src\Java_0629\Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServerV3 (2)">
-    <configuration name="HttpServerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0629.Test1.HttpServerV2" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0629.Test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpServerV3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0629.Test1.HttpServerV3" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0629.Test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NewKe2">
     <configuration name="HttpServerV3 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0702.HttpServerV3" />
       <module name="JavaNew" />
@@ -155,13 +126,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpServerV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0629.Test2.HttpServerV3" />
+    <configuration name="NewKe1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0703.NewKe1" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0629.Test2.*" />
+          <option name="PATTERN" value="Java_0703.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewKe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0702.NewKe1" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0702.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewKe2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0702.NewKe2" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0702.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +169,12 @@
       </method>
     </configuration>
     <configuration name="NewKe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0701.NewKe2" />
+      <option name="MAIN_CLASS_NAME" value="Java_0703.NewKe2" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0701.*" />
+          <option name="PATTERN" value="Java_0703.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HttpServerV2" />
-      <item itemvalue="Application.HttpServerV3" />
-      <item itemvalue="Application.HttpServerV3 (1)" />
-      <item itemvalue="Application.NewKe2" />
       <item itemvalue="Application.HttpServerV3 (2)" />
+      <item itemvalue="Application.NewKe1" />
+      <item itemvalue="Application.NewKe2 (1)" />
+      <item itemvalue="Application.NewKe1 (1)" />
+      <item itemvalue="Application.NewKe2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpServerV3 (2)" />
-        <item itemvalue="Application.HttpServerV3" />
         <item itemvalue="Application.NewKe2" />
-        <item itemvalue="Application.HttpServerV3 (1)" />
-        <item itemvalue="Application.HttpServerV2" />
+        <item itemvalue="Application.NewKe1 (1)" />
+        <item itemvalue="Application.NewKe2 (1)" />
+        <item itemvalue="Application.NewKe1" />
+        <item itemvalue="Application.HttpServerV3 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +349,8 @@
       <workItem from="1593529495932" duration="4334000" />
       <workItem from="1593562739677" duration="9837000" />
       <workItem from="1593644263973" duration="11046000" />
+      <workItem from="1593677910931" duration="3709000" />
+      <workItem from="1593755149881" duration="5503000" />
     </task>
     <task id="LOCAL-00001" summary="顺序表的实现">
       <created>1592875264217</created>
@@ -442,7 +443,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593569064800</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="实现登录功能的http服务器">
+      <created>1593678154370</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593678154370</updated>
+    </task>
+    <task id="LOCAL-00015" summary="两道练习题">
+      <created>1593682007960</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593682007961</updated>
+    </task>
+    <task id="LOCAL-00016" summary="年会抽奖">
+      <created>1593756885074</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593756885075</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +513,10 @@
     <MESSAGE value="二叉树,数字之和" />
     <MESSAGE value="提交选票" />
     <MESSAGE value="ip地址转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="ip地址转换" />
+    <MESSAGE value="实现登录功能的http服务器" />
+    <MESSAGE value="两道练习题" />
+    <MESSAGE value="年会抽奖" />
+    <option name="LAST_COMMIT_MESSAGE" value="年会抽奖" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="0" key="#Auto_Import" timestamp="1593310425421">
@@ -500,6 +525,10 @@
     <state x="523" y="0" key="#Auto_Import/0.0.1536.864@0.0.1536.864" timestamp="1592792683194" />
     <state x="564" y="0" key="#Auto_Import/62.0.1474.864@62.0.1474.864" timestamp="1592475950978" />
     <state x="567" y="0" key="#Auto_Import/66.0.1470.864@66.0.1470.864" timestamp="1593310425421" />
+    <state x="428" y="110" key="#Inspections" timestamp="1593756826529">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="428" y="110" key="#Inspections/66.0.1470.864@66.0.1470.864" timestamp="1593756826529" />
     <state x="487" y="260" width="434" height="276" key="#Notifications" timestamp="1593387386037">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
@@ -556,66 +585,66 @@
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
     <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1592811220926" />
     <state x="589" y="159" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1592875138781" />
-    <state width="1427" height="127" key="GridCell.Tab.0.bottom" timestamp="1593669617327">
+    <state width="1427" height="122" key="GridCell.Tab.0.bottom" timestamp="1593761750271">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1593134103768" />
-    <state width="1427" height="127" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593669617327" />
+    <state width="1427" height="122" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593761750271" />
     <state width="1428" height="128" key="GridCell.Tab.0.bottom/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.bottom/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="127" key="GridCell.Tab.0.center" timestamp="1593669617327">
+    <state width="1427" height="122" key="GridCell.Tab.0.center" timestamp="1593761750271">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="127" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1593669617327" />
+    <state width="1427" height="122" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1593761750271" />
     <state width="1428" height="128" key="GridCell.Tab.0.center/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.center/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="127" key="GridCell.Tab.0.left" timestamp="1593669617326">
+    <state width="1427" height="122" key="GridCell.Tab.0.left" timestamp="1593761750271">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="127" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1593669617326" />
+    <state width="1427" height="122" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1593761750271" />
     <state width="1428" height="128" key="GridCell.Tab.0.left/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.left/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="127" key="GridCell.Tab.0.right" timestamp="1593669617327">
+    <state width="1427" height="122" key="GridCell.Tab.0.right" timestamp="1593761750271">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="127" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1593669617327" />
+    <state width="1427" height="122" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1593761750271" />
     <state width="1428" height="128" key="GridCell.Tab.0.right/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1428" height="219" key="GridCell.Tab.1.bottom" timestamp="1593600512183">
+    <state width="1427" height="217" key="GridCell.Tab.1.bottom" timestamp="1593760833444">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="219" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593600512183" />
-    <state width="1428" height="219" key="GridCell.Tab.1.center" timestamp="1593600512183">
+    <state width="1427" height="217" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593760833444" />
+    <state width="1427" height="217" key="GridCell.Tab.1.center" timestamp="1593760833443">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="219" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1593600512183" />
-    <state width="1428" height="219" key="GridCell.Tab.1.left" timestamp="1593600512183">
+    <state width="1427" height="217" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1593760833443" />
+    <state width="1427" height="217" key="GridCell.Tab.1.left" timestamp="1593760833443">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="219" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1593600512183" />
-    <state width="1428" height="219" key="GridCell.Tab.1.right" timestamp="1593600512183">
+    <state width="1427" height="217" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1593760833443" />
+    <state width="1427" height="217" key="GridCell.Tab.1.right" timestamp="1593760833443">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1428" height="219" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1593600512183" />
+    <state width="1427" height="217" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1593760833443" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -631,11 +660,11 @@
     <state x="317" y="106" width="996" height="707" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1592885205010" />
     <state x="321" y="106" width="914" height="707" key="SettingsEditor/66.0.1470.864@66.0.1470.864" timestamp="1593562800948" />
     <state x="387" y="133" key="SettingsEditor/66.0.1854.1080@66.0.1854.1080" timestamp="1593533557220" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593569066541">
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593761815612">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1592964082270" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593569066541" />
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593761815612" />
     <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593506915480">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
@@ -912,6 +941,36 @@
           <url>file://$PROJECT_DIR$/src/Java_0629/Test2/HttpRequest.java</url>
           <line>28</line>
           <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0702/NewKe2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0702/NewKe2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0702/NewKe2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0703/NewKe2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0703/NewKe2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java_0703/NewKe2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Java_0617/TestDemo2.java</url>
