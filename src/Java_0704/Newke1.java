@@ -4,11 +4,10 @@ public class Newke1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while(scanner.hasNextLine()) {
-            int n = scanner.nextInt();
-            scanner.nextLine();
+            String n = scanner.nextLine();
             LinkedHashMap<String,Integer> map = new LinkedHashMap<>();
-            String[] strs = new String[n];
-            for(int i = 0; i < n; i++) {
+            String[] strs = new String[Integer.parseInt(n)];
+            for(int i = 0; i < Integer.parseInt(n); i++) {
                 strs[i] = scanner.nextLine();
                 map.put(strs[i], strs[i].length());
             }
@@ -20,11 +19,8 @@ public class Newke1 {
         }
     }
     public static int help(String o1, String o2, Map<String,Integer> map) {
-        int len1 = map.get(o1);
-        int len2 = map.get(o2);
-        if(len1 == len2) {
-            return o1.compareTo(o2);
-        }
+        int len1 = map.get(o1), len2 = map.get(o2);
+        if(len1 == len2) return o1.compareTo(o2);
         return len1 - len2;
     }
 }
