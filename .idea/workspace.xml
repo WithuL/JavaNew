@@ -26,10 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="五大排序方法">
-      <change afterPath="$PROJECT_DIR$/src/Java_0704/Newke1.java" afterDir="false" />
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="最难的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0703/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0703/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,7 @@
       <recent name="F:\Bit\JavaNew\src\Java_0629\Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Newke1">
+  <component name="RunManager" selected="Application.StackSort">
     <configuration name="NewKe2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0704.NewKe2" />
       <module name="JavaNew" />
@@ -128,13 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewKe4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0703.NewKe4" />
+    <configuration name="NewKe3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0705.NewKe3" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0703.*" />
+          <option name="PATTERN" value="Java_0705.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +154,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Substr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0703.Substr" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0706.Sort" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0703.*" />
+          <option name="PATTERN" value="Java_0706.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0706.StackSort" />
+      <module name="JavaNew" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0706.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,20 +184,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="grrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0703.grrade" />
-      <module name="JavaNew" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0703.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NewKe4" />
-      <item itemvalue="Application.Substr" />
-      <item itemvalue="Application.grrade" />
       <item itemvalue="Application.NewKe2 (1)" />
       <item itemvalue="Application.Newke1" />
+      <item itemvalue="Application.NewKe3" />
+      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.StackSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackSort" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.NewKe3" />
         <item itemvalue="Application.Newke1" />
         <item itemvalue="Application.NewKe2 (1)" />
-        <item itemvalue="Application.grrade" />
-        <item itemvalue="Application.Substr" />
-        <item itemvalue="Application.NewKe4" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +357,9 @@
       <workItem from="1593814824279" duration="231000" />
       <workItem from="1593815239265" duration="13000" />
       <workItem from="1593815279350" duration="4349000" />
-      <workItem from="1593846193687" duration="4913000" />
+      <workItem from="1593846193687" duration="6538000" />
+      <workItem from="1593936793608" duration="6440000" />
+      <workItem from="1593988808471" duration="5626000" />
     </task>
     <task id="LOCAL-00001" summary="顺序表的实现">
       <created>1592875264217</created>
@@ -508,7 +508,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593787780791</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="两道练习题">
+      <created>1593851172018</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1593851172018</updated>
+    </task>
+    <task id="LOCAL-00023" summary="微信红包">
+      <created>1593941501132</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1593941501133</updated>
+    </task>
+    <task id="LOCAL-00024" summary="最难的问题">
+      <created>1593946232518</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1593946232518</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,14 +579,16 @@
     <MESSAGE value="提交选票" />
     <MESSAGE value="ip地址转换" />
     <MESSAGE value="实现登录功能的http服务器" />
-    <MESSAGE value="两道练习题" />
     <MESSAGE value="年会抽奖" />
     <MESSAGE value="背包问题" />
     <MESSAGE value="DNA序列,百万富翁" />
     <MESSAGE value="成绩排序" />
     <MESSAGE value="优先级队列堆得实现" />
     <MESSAGE value="五大排序方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="五大排序方法" />
+    <MESSAGE value="两道练习题" />
+    <MESSAGE value="微信红包" />
+    <MESSAGE value="最难的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="最难的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="0" key="#Auto_Import" timestamp="1593310425421">
@@ -638,66 +661,66 @@
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590888010564" />
     <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1592811220926" />
     <state x="589" y="159" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1592875138781" />
-    <state width="1427" height="113" key="GridCell.Tab.0.bottom" timestamp="1593850698104">
+    <state width="1427" height="112" key="GridCell.Tab.0.bottom" timestamp="1594002728083">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1593134103768" />
-    <state width="1427" height="113" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593850698104" />
+    <state width="1427" height="112" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1594002728083" />
     <state width="1428" height="128" key="GridCell.Tab.0.bottom/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.bottom/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="113" key="GridCell.Tab.0.center" timestamp="1593850698103">
+    <state width="1427" height="112" key="GridCell.Tab.0.center" timestamp="1594002728083">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="113" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1593850698103" />
+    <state width="1427" height="112" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1594002728083" />
     <state width="1428" height="128" key="GridCell.Tab.0.center/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.center/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="113" key="GridCell.Tab.0.left" timestamp="1593850698103">
+    <state width="1427" height="112" key="GridCell.Tab.0.left" timestamp="1594002728083">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="113" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1593850698103" />
+    <state width="1427" height="112" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1594002728083" />
     <state width="1428" height="128" key="GridCell.Tab.0.left/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.left/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="113" key="GridCell.Tab.0.right" timestamp="1593850698104">
+    <state width="1427" height="112" key="GridCell.Tab.0.right" timestamp="1594002728083">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1492" height="174" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592811570766" />
     <state width="1431" height="136" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1593134103767" />
-    <state width="1427" height="113" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1593850698104" />
+    <state width="1427" height="112" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1594002728083" />
     <state width="1428" height="128" key="GridCell.Tab.0.right/66.0.1471.864@66.0.1471.864" timestamp="1593530439976" />
     <state width="1811" height="127" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1593533904666" />
-    <state width="1427" height="210" key="GridCell.Tab.1.bottom" timestamp="1593849432873">
+    <state width="1427" height="209" key="GridCell.Tab.1.bottom" timestamp="1594002259713">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1427" height="210" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1593849432873" />
-    <state width="1427" height="210" key="GridCell.Tab.1.center" timestamp="1593849432873">
+    <state width="1427" height="209" key="GridCell.Tab.1.bottom/66.0.1470.864@66.0.1470.864" timestamp="1594002259713" />
+    <state width="1427" height="209" key="GridCell.Tab.1.center" timestamp="1594002259713">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1427" height="210" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1593849432873" />
-    <state width="1427" height="210" key="GridCell.Tab.1.left" timestamp="1593849432873">
+    <state width="1427" height="209" key="GridCell.Tab.1.center/66.0.1470.864@66.0.1470.864" timestamp="1594002259713" />
+    <state width="1427" height="209" key="GridCell.Tab.1.left" timestamp="1594002259713">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591622705093" />
     <state width="1431" height="222" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1427" height="210" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1593849432873" />
-    <state width="1427" height="210" key="GridCell.Tab.1.right" timestamp="1593849432873">
+    <state width="1427" height="209" key="GridCell.Tab.1.left/66.0.1470.864@66.0.1470.864" timestamp="1594002259713" />
+    <state width="1427" height="209" key="GridCell.Tab.1.right" timestamp="1594002259713">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591622705094" />
     <state width="1431" height="222" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1592964118758" />
-    <state width="1427" height="210" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1593849432873" />
+    <state width="1427" height="209" key="GridCell.Tab.1.right/66.0.1470.864@66.0.1470.864" timestamp="1594002259713" />
     <state x="349" y="146" key="IDE.errors.dialog" timestamp="1590830683474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -713,11 +736,11 @@
     <state x="317" y="106" width="996" height="707" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1592885205010" />
     <state x="321" y="106" width="914" height="707" key="SettingsEditor/66.0.1470.864@66.0.1470.864" timestamp="1593562800948" />
     <state x="387" y="133" key="SettingsEditor/66.0.1854.1080@66.0.1854.1080" timestamp="1593533557220" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593787783082">
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593946240029">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1592964082270" />
-    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593787783082" />
+    <state x="395" y="165" key="Vcs.Push.Dialog.v2/66.0.1470.864@66.0.1470.864" timestamp="1593946240029" />
     <state x="598" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593506915480">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
@@ -1094,31 +1117,6 @@
           <url>file://$PROJECT_DIR$/src/Java_0704/NewKe2.java</url>
           <line>24</line>
           <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java_0704/Newke1.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java_0704/Newke1.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java_0704/Newke1.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java_0704/Newke1.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java_0704/Newke1.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Java_0617/TestDemo2.java</url>
