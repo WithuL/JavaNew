@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="球的半径和直径">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c515af4-72a0-45dd-8711-b95987d35405" name="Default" comment="字母统计" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +109,7 @@
       <recent name="F:\Bit\JavaNew\src\Java_0629\Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewKe1">
+  <component name="RunManager" selected="Application.NewKe2">
     <configuration name="BrokenKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0709.BrokenKey" />
       <module name="JavaNew" />
@@ -154,13 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuoFanHua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0709.ShuoFanHua" />
+    <configuration name="NewKe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0710.NewKe2" />
       <module name="JavaNew" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0709.*" />
+          <option name="PATTERN" value="Java_0710.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ShuoFanHua" />
       <item itemvalue="Application.JianDancuo" />
       <item itemvalue="Application.BrokenKey" />
       <item itemvalue="Application.TiJi" />
       <item itemvalue="Application.NewKe1" />
+      <item itemvalue="Application.NewKe2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewKe2" />
         <item itemvalue="Application.NewKe1" />
         <item itemvalue="Application.TiJi" />
         <item itemvalue="Application.BrokenKey" />
         <item itemvalue="Application.JianDancuo" />
-        <item itemvalue="Application.ShuoFanHua" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +367,7 @@
       <workItem from="1594295314104" duration="1264000" />
       <workItem from="1594301853951" duration="640000" />
       <workItem from="1594335610162" duration="3802000" />
-      <workItem from="1594382968298" duration="2214000" />
+      <workItem from="1594382968298" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="顺序表的实现">
       <created>1592875264217</created>
@@ -665,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594280550786</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="字母统计">
+      <created>1594385485827</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594385485827</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,7 +706,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DNA序列,百万富翁" />
     <MESSAGE value="成绩排序" />
     <MESSAGE value="优先级队列堆得实现" />
     <MESSAGE value="五大排序方法" />
@@ -726,7 +730,8 @@
     <MESSAGE value="简单错误记录" />
     <MESSAGE value="坏键测试" />
     <MESSAGE value="球的半径和直径" />
-    <option name="LAST_COMMIT_MESSAGE" value="球的半径和直径" />
+    <MESSAGE value="字母统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="字母统计" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="0" key="#Auto_Import" timestamp="1593310425421">
