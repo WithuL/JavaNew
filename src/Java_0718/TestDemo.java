@@ -24,8 +24,10 @@ public class TestDemo {
 
     static class Woker extends Thread{
         PriorityBlockingQueue<Task> queue = null;
-        public Woker(PriorityBlockingQueue<Task> priorityQueue) {
+        private Object o = null;
+        public Woker(PriorityBlockingQueue<Task> priorityQueue, Object o) {
             this.queue = priorityQueue;
+            this.o = o;
         }
         @Override
         public void run() {
@@ -35,6 +37,9 @@ public class TestDemo {
                     long time = System.currentTimeMillis();
                     if(time > task.time) {
                         queue.put(task);
+                        synchronized(o) {
+                            wait(time - task.time);
+                        }
                     }else{
                         task.run();
                     }
@@ -47,13 +52,17 @@ public class TestDemo {
 
     static class Timer {
         PriorityBlockingQueue<Task> queue = new PriorityBlockingQueue<>();
+        private Object o = new Object();
         public Timer() {
-            Woker woker = new Woker(queue);
+            Woker woker = new Woker(queue, o);
             woker.start();
         }
         public void schedule (Runnable command, long time) {
             Task task = new Task(command, time);
             queue.put(task);
+            synchronized(o) {
+                notify();
+            }
         }
     }
 }
