@@ -1,33 +1,34 @@
-package Java_0508;
+package Java_0729;
 
 public class ShellSort {
-    //希尔排序
-    public static void shellSort(int[] arr) {
+    public void shellSOrt(int[] arr) {
         int gap = arr.length / 2;
         while(gap > 1) {
-            inserSortGap(arr,gap);
-            gap = gap / 2;
+            insertSort(arr, gap);
+            gap /= 2;
         }
-        inserSortGap(arr,1);
+        insertSort(arr, 1);
     }
 
-    private static void inserSortGap(int[] arr, int gap) {
+    public void insertSort(int[] arr, int gap) {
         for(int bound = gap; bound < arr.length; bound++) {
-            int tmp = arr[bound];
             int cur = bound - gap;
-            for(;cur >= 0; cur -= gap) {
+            int tmp = arr[bound];
+            for(; cur >= 0; cur -= gap) {
                 if(arr[cur] > tmp) {
-                    arr[cur + gap] = arr[cur];
-                }else{
+                    arr[cur+gap] = arr[cur];
+                }else {
                     break;
                 }
             }
             arr[cur + gap] = tmp;
         }
     }
+
     public static void main(String[] args) {
+        ShellSort shellSort = new ShellSort();
         int[] arr = {9,5,2,7,3,6,8};
-        shellSort(arr);
+        shellSort.shellSOrt(arr);
         for(int x : arr) {
             System.out.print(x+" ");
         }
