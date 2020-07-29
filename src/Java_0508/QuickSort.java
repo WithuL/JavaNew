@@ -25,11 +25,11 @@ public class QuickSort {
         //基准值就为 最后一个元素
         while(i < j) {
             //从左侧找到大于基准值的元素（的位置）
-            while(i < j && array[i] < array[right]) {
+            while(i < j && array[i] <= array[right]) {
                 i += 1;
             }
             //从右侧找到小于基准值的元素（的位置）
-            while(i > j && array[j] > array[right]) {
+            while(i > j && array[j] >= array[right]) {
                 j -= 1;
             }
             swap(array,i,j);
