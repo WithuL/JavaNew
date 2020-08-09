@@ -34,4 +34,42 @@ public class Test {
             }
         }
     }
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution1 {
+        int index = 0;
+        public TreeNode buildTree(int[] preorder, int[] inorder) {
+            return help(preorder, inorder, 0, preorder.length);
+        }
+
+        public TreeNode help(int[] preorder, int[] inorder, int left, int right) {
+            if(left >= right) {
+                return null;
+            }
+            if(index >= preorder.length) {
+                return null;
+            }
+            //通过先序遍历构造当前的根节点
+            TreeNode cur = new TreeNode(preorder[index++]);
+            //找到根节点的左右边界
+            int mid = 0;
+            for(int i = left; i < right; i++) {
+                if(inorder[i] == cur.val) {
+                    mid = i;
+                }
+            }
+            //将根节点的左右节点连接起来
+            cur.left = help(preorder, inorder, left, mid);
+            cur.right = help(preorder, inorder,mid+1, right);
+            return cur;
+        }
+    }
 }
