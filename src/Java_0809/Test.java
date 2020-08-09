@@ -72,4 +72,32 @@ public class Test {
             return cur;
         }
     }
+
+    class Solution2 {
+        int index = 0;
+        public TreeNode buildTree(int[] inorder, int[] postorder) {
+            index = inorder.length - 1;
+            return help(postorder, inorder , 0 , postorder.length);
+        }
+        public TreeNode help(int[] postorder, int[] inorder, int left, int right) {
+            if(left >= right) {
+                return null;
+            }
+            if(index < 0) {
+                return null;
+            }
+            TreeNode root = new TreeNode(postorder[index--]);
+            //查看根节点在中序遍历中的位置
+            int mid = -1;
+            for(int i = left; i < right; i++) {
+                if(inorder[i] == root.val) {
+                    mid = i;
+                }
+            }
+            //根据根节点的位置,创建左右子树
+            root.right = help(postorder, inorder, mid+1, right);
+            root.left = help(postorder, inorder, left, mid);
+            return root;
+        }
+    }
 }
