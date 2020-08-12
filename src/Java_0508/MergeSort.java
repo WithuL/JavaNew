@@ -71,4 +71,13 @@ public class MergeSort {
         }
     }
 
+    public static void main(String[] args) {
+        MergeSort mergeSort = new MergeSort();
+        int[] arr = {9,5,2,7,3,6,8};
+        mergeSort.mergeSort(arr);
+        for(int x : arr) {
+            System.out.print(x+" ");
+        }
+    }
+
 }
