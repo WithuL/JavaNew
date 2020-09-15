@@ -1,19 +1,26 @@
 package Java_0913;
 
 public class LeetCode {
-    public static void main(String[] args) {
-        for(int i = 2;i <= 100; i++) {
-            if(isHeshu(i)) {
-                System.out.println(i);
-            }
-        }
-    }
-    public static boolean isHeshu(int i) {
-        for(int j = 2; j < Math.sqrt(i); j++) {
-            if(i % j == 0) {
-                return false;
-            }
-        }
-        return true;
+//    public static void main(String[] args) {
+//        for(int i = 2;i <= 100; i++) {
+//            if(isHeshu(i)) {
+//                System.out.println(i);
+//            }
+//        }
+//    }
+//    public static boolean isHeshu(int i) {
+//        for(int j = 2; j < Math.sqrt(i); j++) {
+//            if(i % j == 0) {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+    public int[] exchangeAB(int[] AB) {
+    // write code here
+        AB[1] = AB[0] + AB[1];
+        AB[0] = AB[1] - AB[0];
+        AB[1] = AB[1] - AB[0];
+        return AB;
     }
 }
