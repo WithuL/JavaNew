@@ -29,7 +29,7 @@ public class QuickSort {
                 i += 1;
             }
             //从右侧找到小于基准值的元素（的位置）
-            while(i > j && array[j] >= array[right]) {
+            while(i <  j && array[j] >= array[right]) {
                 j -= 1;
             }
             swap(array,i,j);
