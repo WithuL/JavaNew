@@ -35,7 +35,7 @@ public class HeapSort {
         }
     }
 
-    private static void swap(int[] arr, int child, int parent) {
+    public static void swap(int[] arr, int child, int parent) {
         int tmp = arr[child];
         arr[child] = arr[parent];
         arr[parent] = tmp;

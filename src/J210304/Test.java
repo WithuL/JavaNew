@@ -1,4 +1,4 @@
-package Java_210304;
+package J210304;
 
 public class Test{
     public static void main(String[] args){
